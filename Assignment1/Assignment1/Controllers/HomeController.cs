@@ -13,7 +13,6 @@ namespace Assignment1.Controllers
     //Crazy
     public class HomeController : Controller
     {
-        private TechnicianContext technicianContext { get; set; }
 
         private readonly ILogger<HomeController> _logger;
 

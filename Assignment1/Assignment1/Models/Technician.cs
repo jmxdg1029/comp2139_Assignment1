@@ -10,7 +10,7 @@ namespace Assignment1.Models
     {
         public int TechnicianId { get; set; }
         [RegularExpression(@"\D"), Required(ErrorMessage = "Please enter a valid Name")]
-        public string? TechnicianName { get; set; }
+        public string TechnicianName { get; set; }
         [Required(ErrorMessage = "Please enter a valid Email Address")]
         public string TechnicianEmail { get; set; }
         [Required(ErrorMessage = "Please enter a valid Phone Number")]
