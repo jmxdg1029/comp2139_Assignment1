@@ -5798,19 +5798,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jmxdg\\.nuget\\packages\\": {}
+    "C:\\Users\\Gabri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jmxdg\\Desktop\\comp2139_Assignment1\\Assignment1\\Assignment1\\Assignment1.csproj",
+      "projectUniqueName": "C:\\Users\\Gabri\\OneDrive\\Desktop\\WebDev Assignment 1\\comp2139_Assignment1\\Assignment1\\Assignment1\\Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "C:\\Users\\jmxdg\\Desktop\\comp2139_Assignment1\\Assignment1\\Assignment1\\Assignment1.csproj",
-      "packagesPath": "C:\\Users\\jmxdg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jmxdg\\Desktop\\comp2139_Assignment1\\Assignment1\\Assignment1\\obj\\",
+      "projectPath": "C:\\Users\\Gabri\\OneDrive\\Desktop\\WebDev Assignment 1\\comp2139_Assignment1\\Assignment1\\Assignment1\\Assignment1.csproj",
+      "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gabri\\OneDrive\\Desktop\\WebDev Assignment 1\\comp2139_Assignment1\\Assignment1\\Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jmxdg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5822,7 +5822,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -5834,7 +5833,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -5869,7 +5867,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

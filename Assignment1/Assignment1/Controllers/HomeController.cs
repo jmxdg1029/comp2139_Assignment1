@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace Assignment1.Controllers
 {
+
+    //Pull
     public class HomeController : Controller
     {
         private TechnicianContext technicianContext { get; set; }
