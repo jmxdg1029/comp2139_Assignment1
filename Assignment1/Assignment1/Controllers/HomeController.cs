@@ -11,11 +11,18 @@ namespace Assignment1.Controllers
 {
     public class HomeController : Controller
     {
+        private TechnicianContext technicianContext { get; set; }
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+        }
+
+        public HomeController(TechnicianContext ctx)
+        {
+            technicianContext = ctx;
         }
 
         public IActionResult Index()
