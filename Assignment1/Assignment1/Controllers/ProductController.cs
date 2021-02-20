@@ -9,8 +9,17 @@ using System.Threading.Tasks;
 
 namespace Assignment1.Controllers
 {
-    public class ProductController : Controller
-    {
+    public class ProductContext : Controller
+    { 
+
+        private ProductContext ProContext { get; set; }
+
+        public ProductContext(ProductContext ctx)
+        {
+            ProContext = ctx;
+        }
+
+
         public IActionResult Index()
         {
             return View();
