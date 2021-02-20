@@ -6,10 +6,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Assignment1.Models;
 
 namespace Assignment1
 {
@@ -35,6 +38,9 @@ namespace Assignment1
 
             services.AddDbContext<TechnicianContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("TechnicianContext")));
+
+            services.AddDbContext<ProductContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("ProductContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

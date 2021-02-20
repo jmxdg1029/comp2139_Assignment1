@@ -11,9 +11,6 @@ namespace Assignment1.Controllers
 {
     public class ProductController : Controller
     {
-
-        private ProductContext context { set; get; }
-
         public IActionResult Index()
         {
             return View();
