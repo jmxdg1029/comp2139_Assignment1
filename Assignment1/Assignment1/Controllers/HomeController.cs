@@ -20,12 +20,12 @@ namespace Assignment1.Controllers
             _logger = logger;
         }
 
-        public HomeController(TechnicianContext ctx)
+        public IActionResult Index()
         {
-            technicianContext = ctx;
+            return View();
         }
 
-        public IActionResult Index()
+        public IActionResult AddTechnician()
         {
             return View();
         }
