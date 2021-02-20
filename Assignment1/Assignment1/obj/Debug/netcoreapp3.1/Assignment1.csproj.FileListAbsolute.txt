@@ -194,3 +194,4 @@ C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\ne
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddTechnician.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddTechnician.cshtml.g.cs
