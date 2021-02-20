@@ -1,5 +1,6 @@
 ﻿using Assignment1.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -16,14 +17,20 @@ namespace Assignment1.Controllers
 
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        private TechnicianContext techContext { get; set; }
 
+      
+
+        public HomeController(TechnicianContext tctx)
+        {
+            techContext = tctx;
+        }
         public IActionResult Index()
         {
-            return View();
+            var technicians = techContext.Technicians
+                .OrderBy(t => t.TechnicianName)
+                .ToList();
+            return View(technicians);
         }
 
         public IActionResult AddTechnician()
