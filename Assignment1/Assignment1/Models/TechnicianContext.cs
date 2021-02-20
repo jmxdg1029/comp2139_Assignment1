@@ -11,5 +11,7 @@ namespace Assignment1.Models
         public TechnicianContext(DbContextOptions<TechnicianContext> options)
             : base(options)
         { }
+
+        public DbSet<Technician> Technicians { get; set; }
     }
 }
