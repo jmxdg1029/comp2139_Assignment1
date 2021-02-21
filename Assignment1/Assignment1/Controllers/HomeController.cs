@@ -33,6 +33,11 @@ namespace Assignment1.Controllers
             return View(technicians);
         }
 
+        public IActionResult AddIncident()
+        {
+            return View();
+        }
+
         public IActionResult AddTechnician()
         {
             return View();

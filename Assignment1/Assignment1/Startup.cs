@@ -40,6 +40,9 @@ namespace Assignment1
 
             services.AddDbContext<ProductContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("ProductContext")));
+
+            services.AddDbContext<IncidentContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("IncidentContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
