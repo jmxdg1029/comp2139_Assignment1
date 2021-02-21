@@ -22,7 +22,7 @@ namespace Assignment1.Controllers
         }
 
         [HttpGet]
-        public IActionResult Add()
+        public IActionResult AddTechnician()
         {
             ViewBag.Action = "Add";
             return View("Edit",new Technician());
