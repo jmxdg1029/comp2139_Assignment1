@@ -15,5 +15,7 @@ namespace Assignment1.Models
         { }
 
         public DbSet<Product> Products { get; set; }
+
+        
     }
 }

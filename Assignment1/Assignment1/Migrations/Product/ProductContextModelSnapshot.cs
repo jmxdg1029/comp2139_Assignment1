@@ -26,11 +26,18 @@ namespace Assignment1.Migrations.Product
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("ProductCode")
+                        .HasColumnType("int");
+
                     b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProductPrice")
+                    b.Property<int?>("ProductYearlyPrice")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ProuctReleaseDate")
                         .IsRequired()
                         .HasColumnType("int");
 

@@ -19,9 +19,9 @@ namespace Assignment1.Controllers
 
         private TechnicianContext techContext { get; set; }
 
-      
 
-        public HomeController(TechnicianContext tctx)
+
+        public HomeController(TechnicianContext tctx )
         {
             techContext = tctx;
         }
@@ -40,6 +40,19 @@ namespace Assignment1.Controllers
 
         public IActionResult AddProduct()
         {
+            ViewBag.Message = "Add Product";
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddProduct(Product model)
+        {
+            if(ModelState.IsValid)
+            {
+                return RedirectToAction("Index");
+            }
+                
             return View();
         }
 

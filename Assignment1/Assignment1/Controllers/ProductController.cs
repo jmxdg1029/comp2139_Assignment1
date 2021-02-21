@@ -12,7 +12,7 @@ namespace Assignment1.Controllers
     public class ProductContext : Controller
     { 
 
-        private ProductContext ProContext { get; set; }
+        public ProductContext ProContext { get; set; }
 
         public ProductContext(ProductContext ctx)
         {
@@ -23,6 +23,13 @@ namespace Assignment1.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult Add()
+        {
+            ViewBag.Action = "Add";
+            return View(new Product());
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Assignment1.Migrations.Product
 {
-    public partial class Intial : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,8 +12,10 @@ namespace Assignment1.Migrations.Product
                 {
                     ProductId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    ProductCode = table.Column<int>(type: "int", nullable: false),
                     ProductName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ProductPrice = table.Column<int>(type: "int", nullable: false)
+                    ProuctReleaseDate = table.Column<int>(type: "int", nullable: false),
+                    ProductYearlyPrice = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

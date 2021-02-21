@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment1.Migrations.Product
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20210220214925_Intial")]
-    partial class Intial
+    [Migration("20210221024010_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,11 +28,18 @@ namespace Assignment1.Migrations.Product
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("ProductCode")
+                        .HasColumnType("int");
+
                     b.Property<string>("ProductName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProductPrice")
+                    b.Property<int?>("ProductYearlyPrice")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ProuctReleaseDate")
                         .IsRequired()
                         .HasColumnType("int");
 
