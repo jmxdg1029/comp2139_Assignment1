@@ -32,15 +32,32 @@ namespace Assignment1.Controllers
                 .ToList();
             return View(technicians);
         }
-
+        public IActionResult ManageTechnician()
+        {
+            return View();
+        }
         public IActionResult AddIncident()
         {
             return View();
         }
 
+        [HttpGet]
         public IActionResult AddTechnician()
         {
-            return View();
+            ViewBag.Action = "Add";
+            return View(new Technician());
+        }
+
+        [HttpPost]
+        public IActionResult AddTechnician(Technician technician)
+        {
+
+            if (ModelState.IsValid)
+            {
+                techContext.Technicians.Add(technician);
+                techContext.SaveChanges();
+            }
+            return View("Index");
         }
 
         public IActionResult AddProduct()
