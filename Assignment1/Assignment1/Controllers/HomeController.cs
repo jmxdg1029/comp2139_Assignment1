@@ -19,8 +19,6 @@ namespace Assignment1.Controllers
 
         private TechnicianContext techContext { get; set; }
 
-      
-
         public HomeController(TechnicianContext tctx)
         {
             techContext = tctx;
@@ -45,7 +43,7 @@ namespace Assignment1.Controllers
         public IActionResult AddTechnician()
         {
             ViewBag.Action = "Add";
-            return View(new Technician());
+            return View("AddTechnician",new Technician());
         }
 
         [HttpPost]
