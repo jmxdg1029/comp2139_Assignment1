@@ -25,7 +25,18 @@ namespace Assignment1.Controllers
         public IActionResult AddTechnician()
         {
             ViewBag.Action = "Add";
-            return View("Edit",new Technician());
+            return View("AddTechnician", new Technician());
+        }
+        [HttpPost]
+        public IActionResult AddTechnician(Technician technician)
+        {
+
+            if (ModelState.IsValid)
+            {
+                Techcontext.Technicians.Add(technician);
+                Techcontext.SaveChanges();
+            }
+            return View("Index");
         }
         [HttpGet]
         public IActionResult Edit(int id)

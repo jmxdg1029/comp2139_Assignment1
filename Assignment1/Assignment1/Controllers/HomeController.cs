@@ -14,9 +14,6 @@ namespace Assignment1.Controllers
     //Crazy
     public class HomeController : Controller
     {
-
-        private readonly ILogger<HomeController> _logger;
-
         private TechnicianContext techContext { get; set; }
 
         public HomeController(TechnicianContext tctx)
@@ -42,20 +39,7 @@ namespace Assignment1.Controllers
         [HttpGet]
         public IActionResult AddTechnician()
         {
-            ViewBag.Action = "Add";
-            return View("AddTechnician",new Technician());
-        }
-
-        [HttpPost]
-        public IActionResult AddTechnician(Technician technician)
-        {
-
-            if (ModelState.IsValid)
-            {
-                techContext.Technicians.Add(technician);
-                techContext.SaveChanges();
-            }
-            return View("Index");
+            return View("TechnicianController");
         }
 
         public IActionResult AddProduct()
