@@ -4,3 +4,16 @@
 }
 <h1>@ViewBag.Title</h1>
 <a asp-controller="Technician" asp-action="AddTechnician">Add New Technician</a>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Email</th>
+         <th>Phone Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var technician in Model) { 
+        }
+    </tbody>
+</table> 
