@@ -193,7 +193,6 @@ C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\ne
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddTechnician.cshtml.g.cs
 C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddProduct.cshtml.g.cs
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.json
@@ -283,3 +282,8 @@ C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\ne
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddIncident.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\AddTechnician.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
