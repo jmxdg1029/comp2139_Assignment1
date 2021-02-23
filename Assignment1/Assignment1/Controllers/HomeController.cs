@@ -27,21 +27,10 @@ namespace Assignment1.Controllers
                 .ToList();
             return View(technicians);
         }
-        public IActionResult ManageTechnician()
-        {
-            return View();
-        }
         public IActionResult AddIncident()
         {
             return View();
         }
-
-        [HttpGet]
-        public IActionResult AddTechnician()
-        {
-            return View("TechnicianController");
-        }
-
         public IActionResult AddProduct()
         {
             return View();

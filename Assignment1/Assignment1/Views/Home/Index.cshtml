@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<Technician>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -11,7 +12,7 @@
     <h3 class="display-4">Admin</h3>
     <table class="table">
         <tr>
-            <td scope="row"><a class="btn btn-lg btn-block" asp-controller="Home" asp-action="ManageTechnician">Manage Technicians</a></td>
+            <td scope="row"><a class="btn btn-lg btn-block" asp-controller="Technician" asp-action="ManageTechnician">Manage Technicians</a></td>
         </tr>
         <tr>
             <td scope="row"><a class="btn btn-lg btn-block" asp-controller="Home" asp-action="AddProduct">Manage Products</a></td>
