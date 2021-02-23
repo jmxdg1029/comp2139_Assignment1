@@ -9,23 +9,21 @@ namespace Assignment1.Controllers
 {
     public class TechnicianController : Controller
     {
-        private TechnicianContext Techcontext { get; set; }
+        private TechnicianContext tehContext { get; set; }
 
-        public TechnicianController(TechnicianContext ctx)
+        public TechnicianController(TechnicianContext tctx)
         {
-            Techcontext = ctx;
+            tehContext = tctx;
         }
-
-        public IActionResult Details(int id)
+        public IActionResult ManageTechnician()
         {
             return View();
         }
-
         [HttpGet]
         public IActionResult AddTechnician()
         {
             ViewBag.Action = "Add";
-            return View("AddTechnician", new Technician());
+            return View("AddTechnician",new Technician());
         }
         [HttpPost]
         public IActionResult AddTechnician(Technician technician)
@@ -33,16 +31,16 @@ namespace Assignment1.Controllers
 
             if (ModelState.IsValid)
             {
-                Techcontext.Technicians.Add(technician);
-                Techcontext.SaveChanges();
+                tehContext.Technicians.Add(technician);
+                tehContext.SaveChanges();
             }
-            return View("Index");
+            return View("ManageTechnician");
         }
         [HttpGet]
         public IActionResult Edit(int id)
         {
             ViewBag.Action = "Edit";
-            var technician = Techcontext.Technicians.Find(id);
+            var technician = tehContext.Technicians.Find(id);
             return View(technician);
         }
         [HttpPost]
@@ -52,13 +50,13 @@ namespace Assignment1.Controllers
             {
                 if(technician.TechnicianId == 0)
                 {
-                    Techcontext.Technicians.Add(technician);
+                    tehContext.Technicians.Add(technician);
                 }
                 else
                 {
-                    Techcontext.Technicians.Update(technician);
+                    tehContext.Technicians.Update(technician);
                 }
-                Techcontext.SaveChanges();
+                tehContext.SaveChanges();
                 return RedirectToAction("Index", "Home");
             }
             else
