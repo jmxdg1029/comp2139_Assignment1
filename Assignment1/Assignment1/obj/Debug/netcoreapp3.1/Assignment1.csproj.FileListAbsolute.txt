@@ -281,3 +281,5 @@ C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\ne
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddProduct.cshtml.g.cs
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\AddTechnician.cshtml.g.cs
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs

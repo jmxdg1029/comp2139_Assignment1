@@ -17,7 +17,10 @@ namespace Assignment1.Controllers
         }
         public IActionResult ManageTechnician()
         {
-            return View();
+            var technician = tehContext.Technicians
+                .OrderBy(t => t.TechnicianName)
+                .ToList();
+            return View(technician);
         }
         [HttpGet]
         public IActionResult AddTechnician()
@@ -37,14 +40,14 @@ namespace Assignment1.Controllers
             return View("ManageTechnician");
         }
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult EditTechnician(int id)
         {
             ViewBag.Action = "Edit";
             var technician = tehContext.Technicians.Find(id);
             return View(technician);
         }
         [HttpPost]
-        public IActionResult Edit(Technician technician)
+        public IActionResult EditTechnician(Technician technician)
         {
             if(ModelState.IsValid)
             {
@@ -65,9 +68,18 @@ namespace Assignment1.Controllers
                 return View(technician);
             }
         }
-        public IActionResult Delete(int id)
+        [HttpGet]
+        public IActionResult DeleteTechnician(int id)
         {
-            return View();
+            var technician = tehContext.Technicians.Find(id);
+            return View(technician);
+        }
+        [HttpPost]
+        public IActionResult Delete(Technician technician)
+        {
+            tehContext.Technicians.Remove(technician);
+            tehContext.SaveChanges();
+            return RedirectToAction("ManageTechnician");
         }
 
     }
