@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Assignment1.Controllers
-{
+{//awdawdawd
     public class TechnicianController : Controller
     {
         private TechnicianContext tehContext { get; set; }
