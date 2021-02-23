@@ -60,7 +60,7 @@ namespace Assignment1.Controllers
                     tehContext.Technicians.Update(technician);
                 }
                 tehContext.SaveChanges();
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("ManageTechnician");
             }
             else
             {
