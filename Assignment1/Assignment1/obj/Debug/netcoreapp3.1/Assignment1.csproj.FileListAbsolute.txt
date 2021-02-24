@@ -288,3 +288,5 @@ C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\n
 C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
 C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\AddProduct.cshtml.g.cs
 C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
