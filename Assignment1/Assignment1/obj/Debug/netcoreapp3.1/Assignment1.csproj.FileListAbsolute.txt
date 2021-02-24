@@ -256,8 +256,6 @@ C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assign
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.input.cache
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.output.cache
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorCoreGenerate.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddProduct.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddTechnician.cshtml.g.cs
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -290,3 +288,15 @@ C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\n
 C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
 C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
 C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\AddProduct.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\AddTechnician.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\AddIncident.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\DeleteIncident.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\EditIncident.cshtml.g.cs
+C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncident.cshtml.g.cs
