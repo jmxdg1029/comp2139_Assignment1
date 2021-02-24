@@ -1,5 +1,6 @@
 ﻿using Assignment1.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,18 +19,24 @@ namespace Assignment1.Controllers
 
         public IActionResult ManageIncident()
         {
-            return View();
+            var incident = IncidContext.Incidents
+                    .OrderBy(t => t.Title)
+                    .ToList();
+            return View(incident);
         }
 
         [HttpGet]
         public IActionResult AddIncident()
         {
             ViewBag.Action = "Add";
-            return View("Edit", new Incident());
+            ViewBag.Customers = IncidContext.Customers.OrderBy(i => i.CustomerFirstName + i.CustomerLastName).ToList();
+            ViewBag.Products = IncidContext.Products.OrderBy(i => i.ProductName).ToList();
+            ViewBag.Technicians = IncidContext.Technicians.OrderBy(i => i.TechnicianName).ToList();
+            return View("AddIncident", new Incident());
         }
 
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult EditIncident(int id)
         {
             ViewBag.Action = "Edit";
             var incident = IncidContext.Incidents.Find(id);
@@ -37,7 +44,7 @@ namespace Assignment1.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(Incident incident)
+        public IActionResult EditIncident(Incident incident)
         {
             if (ModelState.IsValid)
             {
@@ -59,9 +66,10 @@ namespace Assignment1.Controllers
             }
 
         }
-        public IActionResult Delete(int id)
+        public IActionResult DeleteIncident(int id)
         {
-            return View();
+            var incident = IncidContext.Incidents.Find(id);
+            return View(incident);
         }
     }
 }
