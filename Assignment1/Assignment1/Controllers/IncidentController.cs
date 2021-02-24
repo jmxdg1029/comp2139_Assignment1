@@ -50,7 +50,7 @@ namespace Assignment1.Controllers
                     IncidContext.Incidents.Update(incident);
                 }
                 IncidContext.SaveChanges();
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("ManageIncident");
             }
             else
             {
