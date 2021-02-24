@@ -4,7 +4,7 @@
 }
 <h1>@ViewBag.Title</h1>
 
-<form asp-action="Index" method="post">
+<form asp-action="AddProduct" method="post">
     <div class="mb-3">
         <label class="form-label" asp-for="ProductCode">Code</label>
         <input asp-for="ProductCode" type="text" class="form-control">
@@ -18,10 +18,12 @@
         <input asp-for="ProductYearlyPrice" type="number" class="form-control">
     </div>
     <div class="mb-3">
-        <label class="form-label" asp-for="ProuctReleaseDate">Release Date</label>
-        <input asp-for="ProuctReleaseDate" type="date" class="form-control">
+        <label class="form-label" asp-for="ProductReleaseDate">Release Date</label>
+        <input asp-for="ProductReleaseDate" type="date" class="form-control">
     </div>
-    <button type="submit" class="btn btn-primary">Save</button>
-    <button type="submit" class="btn btn-primary">Cancel</button>
+    <input type="hidden" asp-for="ProductId" />
+
+    <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
+    <button asp-controller="Product" asp-action="ManageProduct" type="submit" class="btn btn-primary">Cancel</button>
 </form>
-<p>Use this page to Add Technicians.</p>
+<p>Use this page to Add Products.</p>
