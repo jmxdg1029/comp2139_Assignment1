@@ -5,7 +5,8 @@
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
-            <th>Customer Name</th>
+            <th>Title</th>
+            <th>Customer</th>
             <th>Product</th>
             <th>Date Opened</th>
             <th></th>
@@ -15,10 +16,11 @@
         @foreach (var incident in Model)
         {
 <tr>
-    <td>@incident.CustomerName</td>
-    <td>@incident.Product</td>
-    <td>@incident.DateOpened</td>
-    <td>
+            <td>@incident.Title</td>
+            <td>@incident.Customer.CustomerLastName</td>
+            <td>@incident.Product.ProductName</td>
+            <td>@incident.DateOpened</td>
+            <td>
         <a asp-controller="Incident" asp-action="EditIncident"
            asp-route-id="@incident.IncidentId">Edit</a>
         <a asp-controller="Incident" asp-action="DeleteIncident"

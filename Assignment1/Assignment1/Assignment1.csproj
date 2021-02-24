@@ -13,4 +13,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\Customer\" />
+    <Folder Include="Migrations\Incident\" />
+  </ItemGroup>
+
 </Project>
