@@ -13,31 +13,30 @@ namespace Assignment1.Models
         public int CustomerId { get; set; }
 
         [Required(ErrorMessage = "Please Enter A Value For First Name")]
-        public String CustomerFirstName { get; set; }
+        public string CustomerFirstName { get; set; }
 
         [Required(ErrorMessage = "Please Enter A Value For Last Name")]
-        public String CustomerLastName { get; set; }
+        public string CustomerLastName { get; set; }
 
         [Required(ErrorMessage = "Please Enter A Value For Address")]
-        public String CustomerAddress { get; set; }
+        public string CustomerAddress { get; set; }
 
         [Required(ErrorMessage = "Please Enter A Value For City")]
-        public String CustomerCity { get; set; }
+        public string CustomerCity { get; set; }
 
         [Required(ErrorMessage = "Please Enter A Value For State")]
-        public String CustomerState { get; set; }
+        public string CustomerState { get; set; }
 
         [Required(ErrorMessage = "Please Enter A Value For Postal Code")]
-        public String CustomerPostalCode { get; set; }
+        public string CustomerPostalCode { get; set; }
 
         [Required(ErrorMessage = "Please Enter A Value For Country")]
-        public String CustomerCountry { get; set; }
+        public string CountryId { get; set; }
+        public Country Country { get; set; }
         
         [EmailAddress(ErrorMessage ="Invalid Email")]
-        public String CustomerEmail { get; set; }
-
-        [Phone(ErrorMessage = "Invalid Phone Number")]
-        public int CustomerPhone { get; set; }
+        public string CustomerEmail { get; set; }
+        public string CustomerPhone { get; set; }
 
     }
 }
