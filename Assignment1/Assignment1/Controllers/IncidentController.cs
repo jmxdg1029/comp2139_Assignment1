@@ -15,8 +15,14 @@ namespace Assignment1.Controllers
         {
             IncidContext = ctx;
         }
+
+        public IActionResult ManageIncident()
+        {
+            return View();
+        }
+
         [HttpGet]
-        public IActionResult Add()
+        public IActionResult AddIncident()
         {
             ViewBag.Action = "Add";
             return View("Edit", new Incident());
