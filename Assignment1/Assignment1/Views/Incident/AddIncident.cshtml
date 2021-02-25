@@ -11,7 +11,7 @@
             <option value="">Select a Customer</option>
             @foreach (Customer c in ViewBag.Customers)
             {
-<option value="@c.CustomerId"></option>
+                <option value="@c.CustomerId"></option>
             }
         </select>
     </div>
@@ -21,7 +21,8 @@
             <option value="">Select a Product</option>
             @foreach (Product p in ViewBag.Products)
             {
-<option value="@p.ProductId">@p.ProductName</option>            }
+                <option value="@p.ProductId">@p.ProductName</option>            
+            }
         </select>
     </div>
     <div class="mb-3 form-group">
@@ -38,7 +39,7 @@
             <option value="">Select a Technician</option>
             @foreach (Technician t in ViewBag.Technicians)
             {
-<option value="@t.TechnicianId">@t.TechnicianName</option>
+                <option value="@t.TechnicianId">@t.TechnicianName</option>
             }
         </select>
     </div>
