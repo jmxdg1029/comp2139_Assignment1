@@ -6,20 +6,54 @@
 <form asp-action="AddIncident" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="mb-3 form-group">
-        <label class="form-label" asp-for="CustomerName">Name</label>
-        <input asp-for="CustomerName" type="text" class="form-control">
+        <label class="form-label" asp-for="CustomerName">Customer</label>
+        <select asp-for="CustomerName" class="form-control">
+            <option value="">Select a Customer</option>
+            @foreach (Customer c in ViewBag.Customers)
+            {
+                <option value="@c.CustomerId">@c.CustomerLastName</option>
+            }
+        </select>
     </div>
     <div class="mb-3 form-group">
-        <label asp-for="Product" class="form-label">Product</label>
-        <input asp-for="Product" type="text" class="form-control">
+        <label class="form-label" asp-for="ProductName">Product</label>
+        <select asp-for="ProductName" class="form-control">
+            <option value="">Select a Product</option>
+            @foreach (Product p in ViewBag.Products)
+            {
+                <option value="@p.ProductId">@p.ProductName</option>            
+            }
+        </select>
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="Title" class="form-label">Title</label>
+        <input asp-for="Title" type="text" class="form-control">
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="Description" class="form-label">Description</label>
+        <textarea asp-for="Description" rows="2" clos="50" class="form-control">Enter what happened here...</textarea>
+    </div>
+    <div class="mb-3 form-group">
+        <label class="form-label" asp-for="TechnicianName">Technician</label>
+        <select asp-for="TechnicianName" class="form-control">
+            <option value="">Select a Technician</option>
+            @foreach (Technician t in ViewBag.Technicians)
+            {
+                <option value="@t.TechnicianId">@t.TechnicianName</option>
+            }
+        </select>
     </div>
     <div class="mb-3 form-group">
         <label class="form-label" asp-for="DateOpened">Date Opened</label>
         <input asp-for="DateOpened" type="date" class="form-control">
     </div>
+    <div class="mb-3 form-group">
+        <label class="form-label" asp-for="DateClosed">Date Closed</label>
+        <input asp-for="DateClosed" type="date" class="form-control">
+    </div>
     <input type="hidden" asp-for="IncidentId" />
 
     <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
-    <button asp-controller="Incident" asp-action="ManageIncident" type="submit" class="btn btn-primary">Cancel</button>
+    <button asp-controller="Incident" asp-action="ManageProduct" type="submit" class="btn btn-primary">Cancel</button>
 </form>
 <p>Use this page to Add Incidents.</p>
