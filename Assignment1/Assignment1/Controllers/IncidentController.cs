@@ -29,7 +29,7 @@ namespace Assignment1.Controllers
         public IActionResult AddIncident()
         {
             ViewBag.Action = "Add";
-            ViewBag.Customers = IncidContext.Customers.OrderBy(i => i.CustomerFirstName + i.CustomerLastName).ToList();
+            ViewBag.Customers = IncidContext.Customers.OrderBy(i => i.CustomerLastName).ToList();
             ViewBag.Products = IncidContext.Products.OrderBy(i => i.ProductName).ToList();
             ViewBag.Technicians = IncidContext.Technicians.OrderBy(i => i.TechnicianName).ToList();
             return View("AddIncident", new Incident());

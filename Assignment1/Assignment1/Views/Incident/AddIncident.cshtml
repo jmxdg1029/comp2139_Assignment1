@@ -11,7 +11,7 @@
             <option value="">Select a Customer</option>
             @foreach (Customer c in ViewBag.Customers)
             {
-                <option value="@c.CustomerId"></option>
+                <option value="@c.CustomerId">@c.CustomerLastName</option>
             }
         </select>
     </div>
