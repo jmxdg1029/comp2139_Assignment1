@@ -14,8 +14,18 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< main
     <Folder Include="Migrations\Customer\" />
+<<<<<<< main
+=======
+=======
+>>>>>>> FUck
     <Folder Include="Migrations\Incident\" />
+<<<<<<< main
+    <Folder Include="Migrations\Product\" />
+>>>>>>> fuck
+=======
+>>>>>>> Hollayyy
   </ItemGroup>
 
 </Project>

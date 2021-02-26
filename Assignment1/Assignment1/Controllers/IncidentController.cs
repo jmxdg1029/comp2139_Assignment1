@@ -11,15 +11,50 @@ namespace Assignment1.Controllers
     public class IncidentController : Controller
     {
         private IncidentContext IncidContext { get; set; }
-        
-        public IncidentController (IncidentContext ctx)
+<<<<<<< main
+        private CustomerContext custContext { get; set; }
+        private ProductContext proContext { get; set; }
+        private TechnicianContext tehContext { get; set; }
+
+        public IncidentController(IncidentContext ictx, CustomerContext cuctx, ProductContext ctx, TechnicianContext tctx)
         {
-            IncidContext = ctx;
+            IncidContext = ictx;
+            custContext = cuctx;
+            proContext = ctx;
+            tehContext = tctx;
+=======
+        private ProductContext proContext { get; set; }
+        private TechnicianContext tehContext { get; set; }
+        private CustomerContext custContext { get; set; }
+
+        public IncidentController (IncidentContext itx, ProductContext ctx, TechnicianContext tctx, CustomerContext cuctx)
+        {
+            IncidContext = itx;
+            proContext = ctx;
+            tehContext = tctx;
+            custContext = cuctx;
+>>>>>>> FUck
         }
 
         public IActionResult ManageIncident()
         {
+            var customer = custContext.Customers;
+            var products = proContext.Products;
+            var technician = tehContext.Technicians;
+            
             var incident = IncidContext.Incidents
+<<<<<<< main
+<<<<<<< main
+                    .Include(t => t.Customer)
+                    .Include(t => t.Product)
+                    .Include(t => t.Technician)
+=======
+                    .Include(t => t.Technician)
+                    .Include(t => t.Product)
+                    .Include(t => t.Customer)
+>>>>>>> FUck
+=======
+>>>>>>> GL
                     .OrderBy(t => t.Title)
                     .ToList();
             return View(incident);
@@ -29,10 +64,34 @@ namespace Assignment1.Controllers
         public IActionResult AddIncident()
         {
             ViewBag.Action = "Add";
-            ViewBag.Customers = IncidContext.Customers.OrderBy(i => i.CustomerLastName).ToList();
-            ViewBag.Products = IncidContext.Products.OrderBy(i => i.ProductName).ToList();
-            ViewBag.Technicians = IncidContext.Technicians.OrderBy(i => i.TechnicianName).ToList();
+            ViewBag.Customers = custContext.Customers.OrderBy(c => c.CustomerLastName).ToList();
+            ViewBag.Products = proContext.Products.OrderBy(p => p.ProductName).ToList();
+            ViewBag.Technicians = tehContext.Technicians.OrderBy(t => t.TechnicianName).ToList();
             return View("AddIncident", new Incident());
+        }
+        [HttpPost]
+        public IActionResult AddIncident(Incident incident)
+        {
+
+            if (ModelState.IsValid)
+          {
+                IncidContext.Incidents.Add(incident);
+                IncidContext.SaveChanges();
+                return RedirectToAction("ManageIncident");
+            }
+            return View(incident);
+        }
+
+        [HttpPost]
+        public IActionResult AddIncident(Incident incident)
+        {
+
+            if (ModelState.IsValid)
+            {
+                IncidContext.Incidents.Add(incident);
+                IncidContext.SaveChanges();
+            }
+            return RedirectToAction("ManageIncident");
         }
 
         [HttpGet]
