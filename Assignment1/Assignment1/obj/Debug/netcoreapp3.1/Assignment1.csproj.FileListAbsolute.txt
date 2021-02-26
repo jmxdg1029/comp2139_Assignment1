@@ -309,3 +309,13 @@ C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\n
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\AddCustomer.cshtml.g.cs
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ManageCustomer.cshtml.g.cs
 >>>>>>> Incident
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\AddCustomer.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ManageCustomer.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\AddIncident.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\DeleteIncident.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\EditIncident.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncident.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\AddProduct.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
