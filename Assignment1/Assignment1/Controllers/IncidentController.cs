@@ -47,6 +47,7 @@ namespace Assignment1.Controllers
         {
             ViewBag.Action = "Add";
             ViewBag.Customers = custContext.Customers.OrderBy(c => c.CustomerLastName).ToList();
+            ViewBag.CustomerId = custContext.Customers.OrderBy(c => c.CustomerId).ToList();
             ViewBag.Products = proContext.Products.OrderBy(p => p.ProductName).ToList();
             ViewBag.Technicians = tehContext.Technicians.OrderBy(t => t.TechnicianName).ToList();
             return View("AddIncident", new Incident());
@@ -56,7 +57,7 @@ namespace Assignment1.Controllers
         public IActionResult AddIncident(Incident incident)
         {
 
-            if (ModelState.IsValid)
+            if (ModelState.IsValid && ViewBag.CustomerId != null)
             {
                 IncidContext.Incidents.Add(incident);
                 IncidContext.SaveChanges();
