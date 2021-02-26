@@ -34,7 +34,7 @@ namespace Assignment1.Controllers
                 .Include(t => t.Customer)
                     .OrderBy(t => t.Title)
                     .ToList();
-            return RedirectToAction("ManageIncident");
+            return View(incident);
         }
 
         [HttpGet]
