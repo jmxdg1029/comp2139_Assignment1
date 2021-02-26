@@ -36,8 +36,9 @@ namespace Assignment1.Controllers
             {
                 tehContext.Technicians.Add(technician);
                 tehContext.SaveChanges();
+                return RedirectToAction("ManageTechnician");
             }
-            return RedirectToAction("ManageTechnician");
+            return View(technician);
         }
         [HttpGet]
         public IActionResult EditTechnician(int id)

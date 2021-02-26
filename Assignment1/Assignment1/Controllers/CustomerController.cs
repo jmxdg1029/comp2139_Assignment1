@@ -39,8 +39,9 @@ namespace Assignment1.Controllers
             {
                 custContext.Customers.Add(customer);
                 custContext.SaveChanges();
+                return RedirectToAction("ManageCustomer");
             }
-            return RedirectToAction("ManageCustomer");
+            return View(customer);
         }
        
     }
