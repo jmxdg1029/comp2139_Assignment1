@@ -144,9 +144,18 @@ namespace Assignment1.Migrations.Incident
                 name: "FK_Incidents_Products_ProductId",
                 table: "Incidents");
             migrationBuilder.DropForeignKey(
-                name: "FK_Incidents_Technicians_TechniciansId",
+                name: "FK_Incidents_Technicians_TechnicianId",
                 table: "Incidents");
 
+            migrationBuilder.DropForeignKey(
+                name: "FK_Incidents_Technicians_TechnicianId",
+                table: "Technicians");
+            migrationBuilder.DropForeignKey(
+                name: "FK_Incidents_Products_ProductId",
+                table: "Products");
+            migrationBuilder.DropForeignKey(
+                name: "FK_Incidents_Customers_CustomerId",
+                table: "Customers");
 
             migrationBuilder.DropTable(
                 name: "Incidents");
