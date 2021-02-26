@@ -29,10 +29,7 @@ namespace Assignment1.Controllers
 
         public IActionResult ManageIncident()
         {
-            var customer = IncidContext.Customers
-                .Include(t => t.CustomerId)
-                .ToList();
-           
+            var customer = IncidContext.Customers;
             var incident = IncidContext.Incidents
                 .Include(t => t.Customer)
                     .OrderBy(t => t.Title)
