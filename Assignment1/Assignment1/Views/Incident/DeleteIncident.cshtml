@@ -1,7 +1,7 @@
 ﻿@model Incident
 @{ ViewBag.Title = "Delete Incident"; }
 <h2>Confirm Deletion</h2>
-<h3>@Model.CustomerName</h3>
+<h3>@Model.CustomerId</h3>
 <form asp-controller="Incident" asp-action="Delete" method="post">
     <input type="hidden" asp-for="IncidentId" />
 

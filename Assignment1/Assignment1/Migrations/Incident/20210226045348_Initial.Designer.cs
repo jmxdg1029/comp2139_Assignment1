@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment1.Migrations.Incident
 {
     [DbContext(typeof(IncidentContext))]
-    [Migration("20210224234216_Initial")]
+    [Migration("20210226045348_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,6 +21,19 @@ namespace Assignment1.Migrations.Incident
                 .HasAnnotation("ProductVersion", "5.0.3")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Assignment1.Models.Country", b =>
+                {
+                    b.Property<string>("CountryId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CountryName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CountryId");
+
+                    b.ToTable("Country");
+                });
+
             modelBuilder.Entity("Assignment1.Models.Customer", b =>
                 {
                     b.Property<int>("CustomerId")
@@ -28,15 +41,15 @@ namespace Assignment1.Migrations.Incident
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("CountryId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<string>("CustomerAddress")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerCity")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CustomerCountry")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -51,8 +64,8 @@ namespace Assignment1.Migrations.Incident
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CustomerPhone")
-                        .HasColumnType("int");
+                    b.Property<string>("CustomerPhone")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerPostalCode")
                         .IsRequired()
@@ -64,7 +77,9 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("CustomerId");
 
-                    b.ToTable("Customers");
+                    b.HasIndex("CountryId");
+
+                    b.ToTable("Customer");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Incident", b =>
@@ -74,12 +89,8 @@ namespace Assignment1.Migrations.Incident
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CustomerId")
+                    b.Property<int>("CustomerId")
                         .HasColumnType("int");
-
-                    b.Property<string>("CustomerName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DateClosed")
                         .HasColumnType("datetime2");
@@ -90,19 +101,11 @@ namespace Assignment1.Migrations.Incident
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProductId")
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<string>("ProductName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("TechnicianId")
+                    b.Property<int>("TechnicianId")
                         .HasColumnType("int");
-
-                    b.Property<string>("TechnicianName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -142,7 +145,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("ProductId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Product");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Technician", b =>
@@ -166,22 +169,39 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("TechnicianId");
 
-                    b.ToTable("Technicians");
+                    b.ToTable("Technician");
+                });
+
+            modelBuilder.Entity("Assignment1.Models.Customer", b =>
+                {
+                    b.HasOne("Assignment1.Models.Country", "Country")
+                        .WithMany()
+                        .HasForeignKey("CountryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Country");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Incident", b =>
                 {
                     b.HasOne("Assignment1.Models.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("CustomerId");
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Assignment1.Models.Product", "Product")
                         .WithMany()
-                        .HasForeignKey("ProductId");
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Assignment1.Models.Technician", "Technician")
                         .WithMany()
-                        .HasForeignKey("TechnicianId");
+                        .HasForeignKey("TechnicianId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Customer");
 
