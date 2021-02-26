@@ -29,7 +29,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("CountryId");
 
-                    b.ToTable("Country");
+                    b.ToTable("Countries");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Customer", b =>
@@ -55,15 +55,15 @@ namespace Assignment1.Migrations.Incident
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerFirstName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerLastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(8)
+                        .HasColumnType("nvarchar(8)");
 
                     b.Property<string>("CustomerPhone")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("CustomerPostalCode")
                         .IsRequired()
@@ -77,11 +77,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasIndex("CountryId");
 
-<<<<<<< main
-                    b.ToTable("Customer");
-=======
                     b.ToTable("Customers");
->>>>>>> FUck
                 });
 
             modelBuilder.Entity("Assignment1.Models.Incident", b =>
@@ -142,16 +138,12 @@ namespace Assignment1.Migrations.Incident
                     b.Property<DateTime>("ProductReleaseDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ProductYearlyPrice")
-                        .HasColumnType("int");
+                    b.Property<float>("ProductYearlyPrice")
+                        .HasColumnType("real");
 
                     b.HasKey("ProductId");
 
-<<<<<<< main
-                    b.ToTable("Product");
-=======
                     b.ToTable("Products");
->>>>>>> FUck
                 });
 
             modelBuilder.Entity("Assignment1.Models.Technician", b =>
@@ -175,11 +167,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("TechnicianId");
 
-<<<<<<< main
-                    b.ToTable("Technician");
-=======
                     b.ToTable("Technicians");
->>>>>>> FUck
                 });
 
             modelBuilder.Entity("Assignment1.Models.Customer", b =>
@@ -218,14 +206,7 @@ namespace Assignment1.Migrations.Incident
                     b.Navigation("Product");
 
                     b.Navigation("Technician");
-<<<<<<< main
                 });
-=======
-
-                }
-                
-                );
->>>>>>> FUck
 #pragma warning restore 612, 618
         }
     }

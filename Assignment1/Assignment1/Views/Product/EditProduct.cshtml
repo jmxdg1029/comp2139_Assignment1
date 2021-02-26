@@ -24,7 +24,7 @@
 
     <div class="form-group">
         <label asp-for="ProductYearlyPrice">Yearly Price</label>
-        <input asp-for="ProductYearlyPrice" class="form-control">
+        <input asp-for="ProductYearlyPrice" input type="number" min="1" step="any">
     </div>
 
     <input type="hidden" asp-for="ProductCode" />

@@ -22,7 +22,7 @@ namespace Assignment1.Controllers
             tehContext = tctx;
             custContext = cuctx;
 
-
+        }
             public IActionResult ManageIncident()
             {
                 var customer = custContext.Customers;
@@ -101,6 +101,6 @@ namespace Assignment1.Controllers
                 var incident = IncidContext.Incidents.Find(id);
                 return View(incident);
             }
-        }
+        
     }
 }
