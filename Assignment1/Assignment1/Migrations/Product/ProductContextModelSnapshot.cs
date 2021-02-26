@@ -37,8 +37,8 @@ namespace Assignment1.Migrations.Product
                     b.Property<DateTime>("ProductReleaseDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ProductYearlyPrice")
-                        .HasColumnType("int");
+                    b.Property<float>("ProductYearlyPrice")
+                        .HasColumnType("real");
 
                     b.HasKey("ProductId");
 

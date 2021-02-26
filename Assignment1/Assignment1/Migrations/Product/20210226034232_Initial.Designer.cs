@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment1.Migrations.Product
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20210223234449_Initial")]
+    [Migration("20210226034232_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,8 +39,8 @@ namespace Assignment1.Migrations.Product
                     b.Property<DateTime>("ProductReleaseDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("ProductYearlyPrice")
-                        .HasColumnType("int");
+                    b.Property<float>("ProductYearlyPrice")
+                        .HasColumnType("real");
 
                     b.HasKey("ProductId");
 

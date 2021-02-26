@@ -5798,16 +5798,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\Ruzzel\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\jmxdg\\.nuget\\packages\\": {}
->>>>>>> main
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Ruzzel\\Desktop\\comp2139_Assignment1\\Assignment1\\Assignment1\\Assignment1.csproj",
       "projectName": "Assignment1",
       "projectPath": "C:\\Users\\Ruzzel\\Desktop\\comp2139_Assignment1\\Assignment1\\Assignment1\\Assignment1.csproj",
@@ -5816,16 +5811,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ruzzel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\jmxdg\\Desktop\\comp2139_Assignment1\\Assignment1\\Assignment1\\Assignment1.csproj",
-      "projectName": "Assignment1",
-      "projectPath": "C:\\Users\\jmxdg\\Desktop\\comp2139_Assignment1\\Assignment1\\Assignment1\\Assignment1.csproj",
-      "packagesPath": "C:\\Users\\jmxdg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jmxdg\\Desktop\\comp2139_Assignment1\\Assignment1\\Assignment1\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\jmxdg\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> main
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5885,12 +5870,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
->>>>>>> main
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Ruzzel\\Desktop\\comp2139_Assignment1\\Assignment1\\Assignment1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

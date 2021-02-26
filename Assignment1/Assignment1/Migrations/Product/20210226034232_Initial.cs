@@ -16,7 +16,7 @@ namespace Assignment1.Migrations.Product
                     ProductCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ProductName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ProductReleaseDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ProductYearlyPrice = table.Column<int>(type: "int", nullable: false)
+                    ProductYearlyPrice = table.Column<float>(type: "real", nullable: false)
                 },
                 constraints: table =>
                 {
