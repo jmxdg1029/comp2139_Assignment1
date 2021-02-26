@@ -8,7 +8,7 @@
     <div class="mb-3 form-group">
         <label class="form-label" asp-for="CustomerId">Customer</label>
         <select asp-for="CustomerId" class="form-control">
-            <option value="">Select a Customer</option>
+            <option value="0">Select a Customer</option>
             @foreach (Customer c in ViewBag.Customers)
             {
                 <option value="@c.CustomerId">@c.CustomerLastName</option>
@@ -18,7 +18,7 @@
     <div class="mb-3 form-group">
         <label class="form-label" asp-for="ProductId">Product</label>
         <select asp-for="ProductId" class="form-control">
-            <option value="">Select a Product</option>
+            <option value="0">Select a Product</option>
             @foreach (Product p in ViewBag.Products)
             {
                 <option value="@p.ProductId">@p.ProductName</option>            
@@ -36,7 +36,7 @@
     <div class="mb-3 form-group">
         <label class="form-label" asp-for="TechnicianId">Technician</label>
         <select asp-for="TechnicianId" class="form-control">
-            <option value="">Select a Technician</option>
+            <option value="0">Select a Technician</option>
             @foreach (Technician t in ViewBag.Technicians)
             {
                 <option value="@t.TechnicianId">@t.TechnicianName</option>

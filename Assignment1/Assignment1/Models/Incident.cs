@@ -12,7 +12,7 @@ namespace Assignment1.Models
         
 
         [Required (ErrorMessage = "Please enter the customers name.")]
-        public int CustomerId { get; set; }
+        public string CustomerId { get; set; }
         public Customer Customer { get; set; }
 
         [Required(ErrorMessage = "Enter a product name")]
