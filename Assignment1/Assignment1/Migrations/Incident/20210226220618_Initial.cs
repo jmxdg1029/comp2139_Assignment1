@@ -94,7 +94,6 @@ namespace Assignment1.Migrations.Incident
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Incidents", x => x.IncidentId);
-                  
                 });
 
             migrationBuilder.CreateIndex(
@@ -102,20 +101,7 @@ namespace Assignment1.Migrations.Incident
                 table: "Customers",
                 column: "CountryId");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Incidents_CustomerId1",
-                table: "Incidents",
-                column: "CustomerId1");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Incidents_ProductId1",
-                table: "Incidents",
-                column: "ProductId1");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Incidents_TechnicianId1",
-                table: "Incidents",
-                column: "TechnicianId1");
+            
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
