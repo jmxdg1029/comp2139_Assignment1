@@ -41,7 +41,9 @@ namespace Assignment1.Controllers
             var customer = custContext.Customers;
             var products = proContext.Products;
             var technician = tehContext.Technicians;
+            
             var incident = IncidContext.Incidents
+<<<<<<< main
 <<<<<<< main
                     .Include(t => t.Customer)
                     .Include(t => t.Product)
@@ -51,6 +53,8 @@ namespace Assignment1.Controllers
                     .Include(t => t.Product)
                     .Include(t => t.Customer)
 >>>>>>> FUck
+=======
+>>>>>>> GL
                     .OrderBy(t => t.Title)
                     .ToList();
             return View(incident);
@@ -70,7 +74,7 @@ namespace Assignment1.Controllers
         {
 
             if (ModelState.IsValid)
-            {
+          {
                 IncidContext.Incidents.Add(incident);
                 IncidContext.SaveChanges();
                 return RedirectToAction("ManageIncident");
