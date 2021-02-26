@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace Assignment1.Models
 {
@@ -10,7 +9,7 @@ namespace Assignment1.Models
     {
         public int TechnicianId { get; set; }
 
-        [Required(ErrorMessage = "Please enter a valid Name")]
+        [Required(ErrorMessage = "Please enter a value for the cost of you meal.")]
         public string TechnicianName { get; set; }
 
         [Required(ErrorMessage = "Please enter a valid Email Address")]
