@@ -17,7 +17,7 @@ namespace Assignment1.Models
 
         [Required(ErrorMessage = "Enter a product name")]
 
-        public int ProductId { get; set; }
+        public string ProductId { get; set; }
         public Product Product { get; set; }
 
         [Required(ErrorMessage = "Please enter the title of the incident.")]
@@ -26,7 +26,7 @@ namespace Assignment1.Models
 
         [Required(ErrorMessage = "Please enter the technicians name")]
 
-        public int TechnicianId { get; set; }
+        public string TechnicianId { get; set; }
         public Technician Technician { get; set; }
 
         public string Description { get; set; }

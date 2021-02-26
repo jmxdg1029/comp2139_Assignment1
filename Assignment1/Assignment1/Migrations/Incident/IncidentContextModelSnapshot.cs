@@ -87,7 +87,11 @@ namespace Assignment1.Migrations.Incident
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CustomerId")
+                    b.Property<string>("CustomerId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("CustomerId1")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("DateClosed")
@@ -99,10 +103,18 @@ namespace Assignment1.Migrations.Incident
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ProductId")
+                    b.Property<string>("ProductId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ProductId1")
                         .HasColumnType("int");
 
-                    b.Property<int>("TechnicianId")
+                    b.Property<string>("TechnicianId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("TechnicianId1")
                         .HasColumnType("int");
 
                     b.Property<string>("Title")
@@ -111,11 +123,11 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("IncidentId");
 
-                    b.HasIndex("CustomerId");
+                    b.HasIndex("CustomerId1");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("ProductId1");
 
-                    b.HasIndex("TechnicianId");
+                    b.HasIndex("TechnicianId1");
 
                     b.ToTable("Incidents");
                 });
@@ -185,21 +197,15 @@ namespace Assignment1.Migrations.Incident
                 {
                     b.HasOne("Assignment1.Models.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CustomerId1");
 
                     b.HasOne("Assignment1.Models.Product", "Product")
                         .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ProductId1");
 
                     b.HasOne("Assignment1.Models.Technician", "Technician")
                         .WithMany()
-                        .HasForeignKey("TechnicianId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TechnicianId1");
 
                     b.Navigation("Customer");
 
