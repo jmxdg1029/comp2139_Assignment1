@@ -33,6 +33,12 @@ namespace Assignment1.Migrations.Incident
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Products", x => x.ProductId);
+                    table.ForeignKey(
+                        name: "FK_Incidents_Products_ProductId",
+                        column: x => x.ProductId,
+                        principalTable: "Products",
+                        principalColumn: "ProductId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -48,6 +54,12 @@ namespace Assignment1.Migrations.Incident
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Technicians", x => x.TechnicianId);
+                    table.ForeignKey(
+                        name: "FK_Incidents_Technicians_TechnicianId",
+                        column: x => x.TechnicianId,
+                        principalTable: "Technicians",
+                        principalColumn: "TechnicianId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -74,6 +86,12 @@ namespace Assignment1.Migrations.Incident
                         column: x => x.CountryId,
                         principalTable: "Country",
                         principalColumn: "CountryId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Incidents_Customers_CustomerId",
+                        column: x => x.CustomerId,
+                        principalTable: "Customers",
+                        principalColumn: "CustomerId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
