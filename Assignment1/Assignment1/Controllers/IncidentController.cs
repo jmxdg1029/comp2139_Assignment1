@@ -16,15 +16,7 @@ namespace Assignment1.Controllers
         private ProductContext proContext { get; set; }
         private TechnicianContext tehContext { get; set; }
 
-        public IncidentController(IncidentContext ictx, CustomerContext cuctx, ProductContext ctx, TechnicianContext tctx)
-        {
-            IncidContext = ictx;
-            custContext = cuctx;
-            proContext = ctx;
-            tehContext = tctx;
-        }
-
-        
+    
 
         public IncidentController (IncidentContext itx, ProductContext ctx, TechnicianContext tctx, CustomerContext cuctx)
         {
