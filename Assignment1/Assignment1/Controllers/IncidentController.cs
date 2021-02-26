@@ -53,12 +53,12 @@ namespace Assignment1.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddIncident(Incident incident, Customer customer)
+        public IActionResult AddIncident(Incident incident)
         {
 
             if (ModelState.IsValid)
             {
-                IncidContext.Customers.Add(customer);
+         
                 IncidContext.Incidents.Add(incident);
                 IncidContext.SaveChanges();
             }
