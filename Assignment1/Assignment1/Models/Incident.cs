@@ -11,9 +11,10 @@ namespace Assignment1.Models
     {
         public int IncidentId { get; set; }
         
-        [ForeignKey("Customer")]
+        
         [Range(1, 1000, ErrorMessage = "Please enter the customers name.")]
         public int CustomerId { get; set; }
+        [Range(1,1000)]
         public Customer Customer { get; set; }
      
 

@@ -29,11 +29,15 @@ namespace Assignment1.Controllers
 
         public IActionResult ManageIncident()
         {
+            var customer = IncidContext.Customers
+                .Include(t => t.CustomerId)
+                .ToList();
+           
             var incident = IncidContext.Incidents
                 .Include(t => t.Customer)
                     .OrderBy(t => t.Title)
                     .ToList();
-            return View(incident);
+            return RedirectToAction("ManageIncident");
         }
 
         [HttpGet]
@@ -47,12 +51,12 @@ namespace Assignment1.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddIncident(Incident incident)
+        public IActionResult AddIncident(Incident incident,Customer customer)
         {
 
             if (ModelState.IsValid)
             {
-                
+                IncidContext.Customers.Add(customer);
                 IncidContext.Incidents.Add(incident);
                 IncidContext.SaveChanges();
             }

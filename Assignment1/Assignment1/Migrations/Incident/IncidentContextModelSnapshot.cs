@@ -111,6 +111,8 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("IncidentId");
 
+                    b.HasIndex("CustomerId");
+
                     b.ToTable("Incidents");
                 });
 
@@ -173,6 +175,17 @@ namespace Assignment1.Migrations.Incident
                         .IsRequired();
 
                     b.Navigation("Country");
+                });
+
+            modelBuilder.Entity("Assignment1.Models.Incident", b =>
+                {
+                    b.HasOne("Assignment1.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
                 });
 #pragma warning restore 612, 618
         }
