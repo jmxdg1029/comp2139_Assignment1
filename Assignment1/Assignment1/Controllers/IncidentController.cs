@@ -34,15 +34,9 @@ namespace Assignment1.Controllers
             var technician = tehContext.Technicians;
             
             var incident = IncidContext.Incidents
-
                     .Include(t => t.Customer)
                     .Include(t => t.Product)
                     .Include(t => t.Technician)
-
-                    .Include(t => t.Technician)
-                    .Include(t => t.Product)
-                    .Include(t => t.Customer)
-
                     .OrderBy(t => t.Title)
                     .ToList();
             return View(incident);
