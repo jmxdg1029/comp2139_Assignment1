@@ -1,15 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Assignment1",
-    "\\Assignment1\\Assignment1",
-    "\\Assignment1\\Assignment1\\Controllers",
-    "\\Assignment1\\Assignment1\\Migrations",
-    "\\Assignment1\\Assignment1\\Models",
-    "\\Assignment1\\Assignment1\\Views",
-    "\\Assignment1\\Assignment1\\Views\\Home",
-    "\\Assignment1\\Assignment1\\Views\\Product"
+    "\\Assignment1"
   ],
-  "SelectedNode": "\\Assignment1\\Assignment1\\Migrations\\20210220204631_Initial.Designer.cs",
+  "SelectedNode": "\\Assignment1\\Assignment1.sln",
   "PreviewInSolutionExplorer": false
 }
