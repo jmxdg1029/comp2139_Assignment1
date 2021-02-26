@@ -36,6 +36,7 @@ namespace Assignment1.Models
         
         [EmailAddress(ErrorMessage ="Invalid Email")]
         public string CustomerEmail { get; set; }
+
         [StringLength(10, ErrorMessage = "{0} length must be between {2} and {1}.", MinimumLength = 10)]
         public string CustomerPhone { get; set; }
 
