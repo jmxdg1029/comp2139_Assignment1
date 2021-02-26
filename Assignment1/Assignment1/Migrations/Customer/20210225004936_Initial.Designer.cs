@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment1.Migrations.Customer
 {
     [DbContext(typeof(CustomerContext))]
-    [Migration("20210224232835_Initial")]
+    [Migration("20210225004936_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,6 +20,41 @@ namespace Assignment1.Migrations.Customer
                 .HasAnnotation("ProductVersion", "5.0.3")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Assignment1.Models.Country", b =>
+                {
+                    b.Property<string>("CountryId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CountryName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CountryId");
+
+                    b.ToTable("Countries");
+
+                    b.HasData(
+                        new
+                        {
+                            CountryId = "1",
+                            CountryName = "Canada"
+                        },
+                        new
+                        {
+                            CountryId = "2",
+                            CountryName = "United States"
+                        },
+                        new
+                        {
+                            CountryId = "3",
+                            CountryName = "Philippiness"
+                        },
+                        new
+                        {
+                            CountryId = "4",
+                            CountryName = "India"
+                        });
+                });
+
             modelBuilder.Entity("Assignment1.Models.Customer", b =>
                 {
                     b.Property<int>("CustomerId")
@@ -27,15 +62,15 @@ namespace Assignment1.Migrations.Customer
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("CountryId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<string>("CustomerAddress")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerCity")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CustomerCountry")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -50,8 +85,8 @@ namespace Assignment1.Migrations.Customer
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CustomerPhone")
-                        .HasColumnType("int");
+                    b.Property<string>("CustomerPhone")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerPostalCode")
                         .IsRequired()
@@ -63,7 +98,20 @@ namespace Assignment1.Migrations.Customer
 
                     b.HasKey("CustomerId");
 
+                    b.HasIndex("CountryId");
+
                     b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("Assignment1.Models.Customer", b =>
+                {
+                    b.HasOne("Assignment1.Models.Country", "Country")
+                        .WithMany()
+                        .HasForeignKey("CountryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Country");
                 });
 #pragma warning restore 612, 618
         }
