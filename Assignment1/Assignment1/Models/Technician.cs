@@ -9,7 +9,7 @@ namespace Assignment1.Models
     {
         public int TechnicianId { get; set; }
 
-        [Required(ErrorMessage = "Please enter a value for the cost of you meal.")]
+        [Required(ErrorMessage = "Please enter a Valid Technician Name.")]
         public string TechnicianName { get; set; }
 
         [Required(ErrorMessage = "Please enter a valid Email Address")]
