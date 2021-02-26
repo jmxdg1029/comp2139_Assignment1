@@ -30,6 +30,7 @@ namespace Assignment1.Controllers
         public IActionResult ManageIncident()
         {
             var incident = IncidContext.Incidents
+                .Include(t => t.Customer)
                     .OrderBy(t => t.Title)
                     .ToList();
             return View(incident);
@@ -51,6 +52,7 @@ namespace Assignment1.Controllers
 
             if (ModelState.IsValid)
             {
+                
                 IncidContext.Incidents.Add(incident);
                 IncidContext.SaveChanges();
             }
