@@ -6,8 +6,8 @@
 <form asp-action="AddIncident" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="mb-3 form-group">
-        <label class="form-label" asp-for="CustomerName">Customer</label>
-        <select asp-for="CustomerName" class="form-control">
+        <label class="form-label" asp-for="CustomerId">Customer</label>
+        <select asp-for="CustomerId" class="form-control">
             <option value="">Select a Customer</option>
             @foreach (Customer c in ViewBag.Customers)
             {
@@ -16,8 +16,8 @@
         </select>
     </div>
     <div class="mb-3 form-group">
-        <label class="form-label" asp-for="ProductName">Product</label>
-        <select asp-for="ProductName" class="form-control">
+        <label class="form-label" asp-for="ProductId">Product</label>
+        <select asp-for="ProductId" class="form-control">
             <option value="">Select a Product</option>
             @foreach (Product p in ViewBag.Products)
             {
@@ -34,8 +34,8 @@
         <textarea asp-for="Description" rows="2" clos="50" class="form-control">Enter what happened here...</textarea>
     </div>
     <div class="mb-3 form-group">
-        <label class="form-label" asp-for="TechnicianName">Technician</label>
-        <select asp-for="TechnicianName" class="form-control">
+        <label class="form-label" asp-for="TechnicianId">Technician</label>
+        <select asp-for="TechnicianId" class="form-control">
             <option value="">Select a Technician</option>
             @foreach (Technician t in ViewBag.Technicians)
             {
@@ -54,6 +54,6 @@
     <input type="hidden" asp-for="IncidentId" />
 
     <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
-    <button asp-controller="Incident" asp-action="ManageProduct" type="submit" class="btn btn-primary">Cancel</button>
+    <button asp-controller="Incident" asp-action="ManageIncident" type="submit" class="btn btn-primary">Cancel</button>
 </form>
 <p>Use this page to Add Incidents.</p>

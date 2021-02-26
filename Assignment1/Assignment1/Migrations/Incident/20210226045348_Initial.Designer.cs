@@ -4,14 +4,16 @@ using Assignment1.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Assignment1.Migrations.Incident
 {
     [DbContext(typeof(IncidentContext))]
-    partial class IncidentContextModelSnapshot : ModelSnapshot
+    [Migration("20210226045348_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -77,11 +79,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasIndex("CountryId");
 
-<<<<<<< main
                     b.ToTable("Customer");
-=======
-                    b.ToTable("Customers");
->>>>>>> FUck
                 });
 
             modelBuilder.Entity("Assignment1.Models.Incident", b =>
@@ -147,11 +145,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("ProductId");
 
-<<<<<<< main
                     b.ToTable("Product");
-=======
-                    b.ToTable("Products");
->>>>>>> FUck
                 });
 
             modelBuilder.Entity("Assignment1.Models.Technician", b =>
@@ -175,11 +169,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("TechnicianId");
 
-<<<<<<< main
                     b.ToTable("Technician");
-=======
-                    b.ToTable("Technicians");
->>>>>>> FUck
                 });
 
             modelBuilder.Entity("Assignment1.Models.Customer", b =>
@@ -218,14 +208,7 @@ namespace Assignment1.Migrations.Incident
                     b.Navigation("Product");
 
                     b.Navigation("Technician");
-<<<<<<< main
                 });
-=======
-
-                }
-                
-                );
->>>>>>> FUck
 #pragma warning restore 612, 618
         }
     }
