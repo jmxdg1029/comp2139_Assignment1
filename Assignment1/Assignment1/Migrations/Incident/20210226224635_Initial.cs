@@ -8,7 +8,7 @@ namespace Assignment1.Migrations.Incident
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Countries",
+                name: "Country",
                 columns: table => new
                 {
                     CountryId = table.Column<string>(type: "nvarchar(450)", nullable: false),
@@ -16,7 +16,7 @@ namespace Assignment1.Migrations.Incident
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Countries", x => x.CountryId);
+                    table.PrimaryKey("PK_Country", x => x.CountryId);
                 });
 
             migrationBuilder.CreateTable(
@@ -70,9 +70,9 @@ namespace Assignment1.Migrations.Incident
                 {
                     table.PrimaryKey("PK_Customers", x => x.CustomerId);
                     table.ForeignKey(
-                        name: "FK_Customers_Countries_CountryId",
+                        name: "FK_Customers_Country_CountryId",
                         column: x => x.CountryId,
-                        principalTable: "Countries",
+                        principalTable: "Country",
                         principalColumn: "CountryId",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -137,6 +137,17 @@ namespace Assignment1.Migrations.Incident
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropForeignKey(
+                name: "FK_Incidents_Customers_CustomerId",
+                table: "Incidents");
+            migrationBuilder.DropForeignKey(
+                name: "FK_Incidents_Products_ProductId",
+                table: "Incidents");
+            migrationBuilder.DropForeignKey(
+                name: "FK_Incidents_Technicians_TechniciansId",
+                table: "Incidents");
+
+
             migrationBuilder.DropTable(
                 name: "Incidents");
 
@@ -150,7 +161,7 @@ namespace Assignment1.Migrations.Incident
                 name: "Technicians");
 
             migrationBuilder.DropTable(
-                name: "Countries");
+                name: "Country");
         }
     }
 }

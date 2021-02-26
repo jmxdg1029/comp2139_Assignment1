@@ -18,6 +18,5 @@ namespace Assignment1.Models
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Technician> Technicians { get; set; }
-        public DbSet<Country> Countries { get; set; }
     }
 }

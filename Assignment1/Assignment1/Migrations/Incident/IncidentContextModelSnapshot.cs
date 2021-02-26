@@ -29,7 +29,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("CountryId");
 
-                    b.ToTable("Countries");
+                    b.ToTable("Country");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Customer", b =>
