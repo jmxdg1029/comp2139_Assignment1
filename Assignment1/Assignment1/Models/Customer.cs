@@ -12,10 +12,10 @@ namespace Assignment1.Models
     {
         public int CustomerId { get; set; }
 
-        [Required(ErrorMessage = "Please Enter A Value For First Name")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Use letters only please")]
         public string CustomerFirstName { get; set; }
 
-        [Required(ErrorMessage = "Please Enter A Value For Last Name")]
+        [StringLength(8, ErrorMessage = "{0} length must be between {2} and {1}.", MinimumLength = 6)]
         public string CustomerLastName { get; set; }
 
         [Required(ErrorMessage = "Please Enter A Value For Address")]
@@ -36,6 +36,7 @@ namespace Assignment1.Models
         
         [EmailAddress(ErrorMessage ="Invalid Email")]
         public string CustomerEmail { get; set; }
+        [StringLength(10, ErrorMessage = "{0} length must be between {2} and {1}.", MinimumLength = 10)]
         public string CustomerPhone { get; set; }
 
     }
