@@ -94,24 +94,7 @@ namespace Assignment1.Migrations.Incident
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Incidents", x => x.IncidentId);
-                    table.ForeignKey(
-                        name: "FK_Incidents_Customers_CustomerId1",
-                        column: x => x.CustomerId1,
-                        principalTable: "Customers",
-                        principalColumn: "CustomerId",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Incidents_Products_ProductId1",
-                        column: x => x.ProductId1,
-                        principalTable: "Products",
-                        principalColumn: "ProductId",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Incidents_Technicians_TechnicianId1",
-                        column: x => x.TechnicianId1,
-                        principalTable: "Technicians",
-                        principalColumn: "TechnicianId",
-                        onDelete: ReferentialAction.Restrict);
+                  
                 });
 
             migrationBuilder.CreateIndex(
