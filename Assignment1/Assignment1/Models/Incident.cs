@@ -11,14 +11,14 @@ namespace Assignment1.Models
         public int IncidentId { get; set; }
         
 
-        [Required (ErrorMessage = "Please enter the customers name.")]
-        public string CustomerId { get; set; }
+        [Range(1, 1000, ErrorMessage = "Please enter the customers name.")]
+        public int CustomerId { get; set; }
         public Customer Customer { get; set; }
      
 
-        [Required(ErrorMessage = "Enter a product name")]
+        [Range(1, 1000, ErrorMessage = "Enter a product name")]
 
-        public string ProductId { get; set; }
+        public int ProductId { get; set; }
         public Product Product { get; set; }
       
 
@@ -26,9 +26,9 @@ namespace Assignment1.Models
         public string Title { get; set; }
 
 
-        [Required(ErrorMessage = "Please enter the technicians name")]
+        [Range(1, 1000, ErrorMessage = "Please enter the technicians name")]
 
-        public string TechnicianId { get; set; }
+        public int TechnicianId { get; set; }
         public Technician Technician { get; set; }
     
 

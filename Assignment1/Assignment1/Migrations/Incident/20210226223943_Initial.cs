@@ -83,10 +83,10 @@ namespace Assignment1.Migrations.Incident
                 {
                     IncidentId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CustomerId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ProductId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerId = table.Column<int>(type: "int", nullable: false),
+                    ProductId = table.Column<int>(type: "int", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TechnicianId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TechnicianId = table.Column<int>(type: "int", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DateOpened = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DateClosed = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -94,6 +94,24 @@ namespace Assignment1.Migrations.Incident
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Incidents", x => x.IncidentId);
+                    table.ForeignKey(
+                        name: "FK_Incidents_Customers_CustomerId",
+                        column: x => x.CustomerId,
+                        principalTable: "Customers",
+                        principalColumn: "CustomerId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Incidents_Products_ProductId",
+                        column: x => x.ProductId,
+                        principalTable: "Products",
+                        principalColumn: "ProductId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Incidents_Technicians_TechnicianId",
+                        column: x => x.TechnicianId,
+                        principalTable: "Technicians",
+                        principalColumn: "TechnicianId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -101,22 +119,24 @@ namespace Assignment1.Migrations.Incident
                 table: "Customers",
                 column: "CountryId");
 
-            
+            migrationBuilder.CreateIndex(
+                name: "IX_Incidents_CustomerId",
+                table: "Incidents",
+                column: "CustomerId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Incidents_ProductId",
+                table: "Incidents",
+                column: "ProductId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Incidents_TechnicianId",
+                table: "Incidents",
+                column: "TechnicianId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Incidents_Customers_CustomerID",
-                table: "Incident");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Incidents_Productss_CustomerID",
-                table: "Incident");
-            migrationBuilder.DropForeignKey(
-                name: "FK_Incidents_Technicians_CustomerID",
-                table: "Incident");
-
             migrationBuilder.DropTable(
                 name: "Incidents");
 

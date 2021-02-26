@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment1.Migrations.Incident
 {
     [DbContext(typeof(IncidentContext))]
-    [Migration("20210226220618_Initial")]
+    [Migration("20210226223943_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -89,11 +89,7 @@ namespace Assignment1.Migrations.Incident
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CustomerId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("CustomerId1")
+                    b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("DateClosed")
@@ -105,18 +101,10 @@ namespace Assignment1.Migrations.Incident
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProductId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("ProductId1")
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<string>("TechnicianId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("TechnicianId1")
+                    b.Property<int>("TechnicianId")
                         .HasColumnType("int");
 
                     b.Property<string>("Title")
@@ -125,11 +113,11 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("IncidentId");
 
-                    b.HasIndex("CustomerId1");
+                    b.HasIndex("CustomerId");
 
-                    b.HasIndex("ProductId1");
+                    b.HasIndex("ProductId");
 
-                    b.HasIndex("TechnicianId1");
+                    b.HasIndex("TechnicianId");
 
                     b.ToTable("Incidents");
                 });
@@ -199,15 +187,21 @@ namespace Assignment1.Migrations.Incident
                 {
                     b.HasOne("Assignment1.Models.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("CustomerId1");
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Assignment1.Models.Product", "Product")
                         .WithMany()
-                        .HasForeignKey("ProductId1");
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Assignment1.Models.Technician", "Technician")
                         .WithMany()
-                        .HasForeignKey("TechnicianId1");
+                        .HasForeignKey("TechnicianId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Customer");
 
