@@ -53,7 +53,6 @@ namespace Assignment1.Controllers
 
             if (ModelState.IsValid)
             {
-                IncidContext.Customers.Add(customer);
                 IncidContext.Incidents.Add(incident);
                 IncidContext.SaveChanges();
             }
