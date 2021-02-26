@@ -319,3 +319,5 @@ C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\ne
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\DeleteCustomer.cshtml.g.cs
+C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\EditCustomer.cshtml.g.cs

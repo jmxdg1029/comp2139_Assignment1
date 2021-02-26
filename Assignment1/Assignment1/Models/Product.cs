@@ -18,7 +18,7 @@ namespace Assignment1.Models
         [Required(ErrorMessage = "Please enter the a value for the product name")]
         public String ProductName { get; set; }
 
-        [Required(ErrorMessage = "Please enter a value for the product number")]
+        [Required(ErrorMessage = "Please enter a value for the product time")]
         public DateTime ProductReleaseDate { get; set; }
         
         [Required(ErrorMessage = "Please enter a value for the product yearly price")]

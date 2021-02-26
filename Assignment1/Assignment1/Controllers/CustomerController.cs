@@ -43,6 +43,51 @@ namespace Assignment1.Controllers
             }
             return View(customer);
         }
-       
+        [HttpGet]
+        public IActionResult EditCustomer(int id)
+        {
+            ViewBag.Action = "Edit";
+            ViewBag.Countries = custContext.Countries.OrderBy(c => c.CountryName).ToList();
+            var customer = custContext.Customers.Find(id);
+            return View(customer);
+        }
+        [HttpPost]
+        public IActionResult EditCustomer(Customer customer)
+        {
+            if (ModelState.IsValid)
+            {
+                if (customer.CustomerId == 0)
+                {
+                    custContext.Customers.Add(customer);
+                }
+                else
+                {
+                    custContext.Customers.Update(customer);
+                }
+                custContext.SaveChanges();
+                return RedirectToAction("ManageCustomer");
+            }
+            else
+            {
+                ViewBag.Action = (customer.CustomerId == 0) ? "Add" : "Edit";
+                return View(customer);
+            }
+        }
+        [HttpGet]
+        public IActionResult DeleteCustomer(int id)
+        {
+            var customer = custContext.Customers.Find(id);
+            return View(customer);
+        }
+        [HttpPost]
+        public IActionResult Delete(Customer customer)
+        {
+            custContext.Customers.Remove(customer);
+            custContext.SaveChanges();
+            return RedirectToAction("ManageCustomer");
+        }
+
     }
+
 }
+
