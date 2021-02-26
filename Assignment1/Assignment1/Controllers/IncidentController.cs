@@ -29,7 +29,6 @@ namespace Assignment1.Controllers
 
         public IActionResult ManageIncident()
         {
-        
             var incident = IncidContext.Incidents
                     .OrderBy(t => t.Title)
                     .ToList();
@@ -52,7 +51,6 @@ namespace Assignment1.Controllers
 
             if (ModelState.IsValid)
             {
-         
                 IncidContext.Incidents.Add(incident);
                 IncidContext.SaveChanges();
             }
