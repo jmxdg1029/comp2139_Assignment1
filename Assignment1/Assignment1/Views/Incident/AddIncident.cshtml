@@ -11,8 +11,16 @@
             <option value="0">Select a Customer</option>
             @foreach (Customer c in ViewBag.Customers)
             {
-                <option value="@c.CustomerId">@c.CustomerLastName</option>
-            }
+                @if (Model.CustomerId == c.CustomerId)
+                {
+                    <option value="@c.CustomerId" selected>@c.CustomerLastName</option>
+                }
+                else
+                {
+                    <option value="@c.CustomerLastName">@c.CustomerLastName</option>
+                }
+
+             }
         </select>
     </div>
     <div class="mb-3 form-group">
