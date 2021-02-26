@@ -38,8 +38,9 @@ namespace Assignment1.Controllers
             {
                 proContext.Products.Add(product);
                 proContext.SaveChanges();
+                return RedirectToAction("ManageProduct");
             }
-            return RedirectToAction("ManageProduct");
+            return View(product);
         }
         [HttpGet]
         public IActionResult EditProduct(int id)
