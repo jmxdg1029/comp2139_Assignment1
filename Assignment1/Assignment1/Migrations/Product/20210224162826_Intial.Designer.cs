@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Assignment1.Migrations.Incident
+namespace Assignment1.Migrations.Product
 {
-    [DbContext(typeof(IncidentContext))]
-    [Migration("20210221025240_Initial")]
-    partial class Initial
+    [DbContext(typeof(ProductContext))]
+    [Migration("20210224162826_Intial")]
+    partial class Intial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,27 +21,30 @@ namespace Assignment1.Migrations.Incident
                 .HasAnnotation("ProductVersion", "5.0.3")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Assignment1.Models.Incident", b =>
+            modelBuilder.Entity("Assignment1.Models.Product", b =>
                 {
-                    b.Property<int>("IncidentId")
+                    b.Property<int>("ProductId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CustomerName")
+                    b.Property<string>("ProductCode")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DateOpened")
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ProductReleaseDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Product")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("ProductYearlyPrice")
+                        .HasColumnType("int");
 
-                    b.HasKey("IncidentId");
+                    b.HasKey("ProductId");
 
-                    b.ToTable("Incidents");
+                    b.ToTable("Products");
                 });
 #pragma warning restore 612, 618
         }
