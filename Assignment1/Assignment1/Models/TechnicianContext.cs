@@ -13,5 +13,6 @@ namespace Assignment1.Models
         { }
 
         public DbSet<Technician> Technicians { get; set; }
+     
     }
 }
