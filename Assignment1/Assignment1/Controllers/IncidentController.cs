@@ -57,7 +57,7 @@ namespace Assignment1.Controllers
         public IActionResult AddIncident(Incident incident)
         {
 
-            if (ModelState.IsValid && ViewBag.CustomerId != null)
+            if (ModelState.IsValid)
             {
                 IncidContext.Incidents.Add(incident);
                 IncidContext.SaveChanges();
