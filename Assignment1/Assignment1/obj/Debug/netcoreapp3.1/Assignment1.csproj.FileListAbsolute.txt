@@ -91,6 +91,7 @@ C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assign
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
 C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
+<<<<<<< main
 <<<<<<< Updated upstream
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddIncident.cshtml.g.cs
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddProduct.cshtml.g.cs
@@ -141,3 +142,5 @@ C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\ne
 C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> FUck

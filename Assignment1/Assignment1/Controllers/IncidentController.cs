@@ -11,6 +11,7 @@ namespace Assignment1.Controllers
     public class IncidentController : Controller
     {
         private IncidentContext IncidContext { get; set; }
+<<<<<<< main
         private CustomerContext custContext { get; set; }
         private ProductContext proContext { get; set; }
         private TechnicianContext tehContext { get; set; }
@@ -21,14 +22,35 @@ namespace Assignment1.Controllers
             custContext = cuctx;
             proContext = ctx;
             tehContext = tctx;
+=======
+        private ProductContext proContext { get; set; }
+        private TechnicianContext tehContext { get; set; }
+        private CustomerContext custContext { get; set; }
+
+        public IncidentController (IncidentContext itx, ProductContext ctx, TechnicianContext tctx, CustomerContext cuctx)
+        {
+            IncidContext = itx;
+            proContext = ctx;
+            tehContext = tctx;
+            custContext = cuctx;
+>>>>>>> FUck
         }
 
         public IActionResult ManageIncident()
         {
+            var customer = custContext.Customers;
+            var products = proContext.Products;
+            var technician = tehContext.Technicians;
             var incident = IncidContext.Incidents
+<<<<<<< main
                     .Include(t => t.Customer)
                     .Include(t => t.Product)
                     .Include(t => t.Technician)
+=======
+                    .Include(t => t.Technician)
+                    .Include(t => t.Product)
+                    .Include(t => t.Customer)
+>>>>>>> FUck
                     .OrderBy(t => t.Title)
                     .ToList();
             return View(incident);
@@ -42,6 +64,18 @@ namespace Assignment1.Controllers
             ViewBag.Products = proContext.Products.OrderBy(p => p.ProductName).ToList();
             ViewBag.Technicians = tehContext.Technicians.OrderBy(t => t.TechnicianName).ToList();
             return View("AddIncident", new Incident());
+        }
+        [HttpPost]
+        public IActionResult AddIncident(Incident incident)
+        {
+
+            if (ModelState.IsValid)
+            {
+                IncidContext.Incidents.Add(incident);
+                IncidContext.SaveChanges();
+                return RedirectToAction("ManageIncident");
+            }
+            return View(incident);
         }
 
         [HttpPost]
