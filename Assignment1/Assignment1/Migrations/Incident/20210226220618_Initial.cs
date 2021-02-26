@@ -106,6 +106,17 @@ namespace Assignment1.Migrations.Incident
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropForeignKey(
+                name: "FK_Incidents_Customers_CustomerID",
+                table: "Incident");
+
+            migrationBuilder.DropForeignKey(
+                name: "FK_Incidents_Productss_CustomerID",
+                table: "Incident");
+            migrationBuilder.DropForeignKey(
+                name: "FK_Incidents_Technicians_CustomerID",
+                table: "Incident");
+
             migrationBuilder.DropTable(
                 name: "Incidents");
 
