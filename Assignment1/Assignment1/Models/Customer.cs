@@ -13,17 +13,21 @@ namespace Assignment1.Models
         public int CustomerId { get; set; }
 
         [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Use letters only please")]
+        [Required(ErrorMessage = "Please Enter A Value for Name")]
         public string CustomerFirstName { get; set; }
 
-        [StringLength(8, ErrorMessage = "{0} length must be between {2} and {1}.", MinimumLength = 6)]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Use letters only please")]
+        [Required(ErrorMessage = "Please Enter A Value for Name")]
         public string CustomerLastName { get; set; }
 
         [Required(ErrorMessage = "Please Enter A Value For Address")]
         public string CustomerAddress { get; set; }
 
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Use letters only please")]
         [Required(ErrorMessage = "Please Enter A Value For City")]
         public string CustomerCity { get; set; }
 
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Use letters only please")]
         [Required(ErrorMessage = "Please Enter A Value For State")]
         public string CustomerState { get; set; }
 

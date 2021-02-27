@@ -29,19 +29,7 @@ namespace Assignment1.Controllers
         {
             ViewBag.Action = "Add";
             ViewBag.Countries = custContext.Countries.OrderBy(c => c.CountryName).ToList();
-            return View("AddCustomer", new Customer());
-        }
-        [HttpPost]
-        public IActionResult AddCustomer(Customer customer)
-        {
-
-            if (ModelState.IsValid)
-            {
-                custContext.Customers.Add(customer);
-                custContext.SaveChanges();
-                return RedirectToAction("ManageCustomer");
-            }
-            return View(customer);
+            return View("EditCustomer", new Customer());
         }
         [HttpGet]
         public IActionResult EditCustomer(int id)
@@ -70,6 +58,7 @@ namespace Assignment1.Controllers
             else
             {
                 ViewBag.Action = (customer.CustomerId == 0) ? "Add" : "Edit";
+                ViewBag.Countries = custContext.Countries.OrderBy(c => c.CountryName).ToList();
                 return View(customer);
             }
         }

@@ -1,13 +1,14 @@
 ﻿@model Customer
 
 @{
-    string title = "Edit Customer";
+    string title = ViewBag.Action + " Customer";
     ViewBag.Title = title;
 }
 <h1>@title</h1>
 
 <form asp-action="EditCustomer" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
+
     <div class="mb-3 form-group">
         <label class="form-label" asp-for="CustomerFirstName">First Name</label>
         <input asp-for="CustomerFirstName" type="text" class="form-control">
