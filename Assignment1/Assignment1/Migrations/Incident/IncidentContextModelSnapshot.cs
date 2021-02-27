@@ -77,7 +77,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasIndex("CountryId");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customer");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Incident", b =>
@@ -113,7 +113,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasIndex("CustomerId");
 
-                    b.ToTable("Incidents");
+                    b.ToTable("Incident");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Product", b =>
