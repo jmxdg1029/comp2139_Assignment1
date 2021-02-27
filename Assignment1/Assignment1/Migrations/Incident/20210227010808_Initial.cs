@@ -8,7 +8,7 @@ namespace Assignment1.Migrations.Incident
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Countries",
+                name: "Country",
                 columns: table => new
                 {
                     CountryId = table.Column<string>(type: "nvarchar(450)", nullable: false),
@@ -16,7 +16,7 @@ namespace Assignment1.Migrations.Incident
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Countries", x => x.CountryId);
+                    table.PrimaryKey("PK_Country", x => x.CountryId);
                 });
 
             migrationBuilder.CreateTable(
@@ -51,7 +51,7 @@ namespace Assignment1.Migrations.Incident
                 });
 
             migrationBuilder.CreateTable(
-                name: "Customers",
+                name: "Customer",
                 columns: table => new
                 {
                     CustomerId = table.Column<int>(type: "int", nullable: false)
@@ -68,17 +68,17 @@ namespace Assignment1.Migrations.Incident
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Customers", x => x.CustomerId);
+                    table.PrimaryKey("PK_Customer", x => x.CustomerId);
                     table.ForeignKey(
-                        name: "FK_Customers_Countries_CountryId",
+                        name: "FK_Customer_Country_CountryId",
                         column: x => x.CountryId,
-                        principalTable: "Countries",
+                        principalTable: "Country",
                         principalColumn: "CountryId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Incidents",
+                name: "Incident",
                 columns: table => new
                 {
                     IncidentId = table.Column<int>(type: "int", nullable: false)
@@ -93,55 +93,30 @@ namespace Assignment1.Migrations.Incident
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Incidents", x => x.IncidentId);
+                    table.PrimaryKey("PK_Incident", x => x.IncidentId);
                     table.ForeignKey(
-                        name: "FK_Incidents_Customers_CustomerId",
+                        name: "FK_Incident_Customer_CustomerId",
                         column: x => x.CustomerId,
-                        principalTable: "Customers",
+                        principalTable: "Customer",
                         principalColumn: "CustomerId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Incidents_Products_ProductId",
-                        column: x => x.ProductId,
-                        principalTable: "Products",
-                        principalColumn: "ProductId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Incidents_Technicians_TechnicianId",
-                        column: x => x.TechnicianId,
-                        principalTable: "Technicians",
-                        principalColumn: "TechnicianId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Customers_CountryId",
-                table: "Customers",
+                name: "IX_Customer_CountryId",
+                table: "Customer",
                 column: "CountryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Incidents_CustomerId",
-                table: "Incidents",
+                name: "IX_Incident_CustomerId",
+                table: "Incident",
                 column: "CustomerId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Incidents_ProductId",
-                table: "Incidents",
-                column: "ProductId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Incidents_TechnicianId",
-                table: "Incidents",
-                column: "TechnicianId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Incidents");
-
-            migrationBuilder.DropTable(
-                name: "Customers");
+                name: "Incident");
 
             migrationBuilder.DropTable(
                 name: "Products");
@@ -150,7 +125,10 @@ namespace Assignment1.Migrations.Incident
                 name: "Technicians");
 
             migrationBuilder.DropTable(
-                name: "Countries");
+                name: "Customer");
+
+            migrationBuilder.DropTable(
+                name: "Country");
         }
     }
 }

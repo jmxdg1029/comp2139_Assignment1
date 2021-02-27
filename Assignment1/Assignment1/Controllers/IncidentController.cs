@@ -29,20 +29,9 @@ namespace Assignment1.Controllers
 
         public IActionResult ManageIncident()
         {
-            var customer = custContext.Customers;
-            var products = proContext.Products;
-            var technician = tehContext.Technicians;
-            
+            var customer = IncidContext.Customers;
             var incident = IncidContext.Incidents
-
-                    .Include(t => t.Customer)
-                    .Include(t => t.Product)
-                    .Include(t => t.Technician)
-
-                    .Include(t => t.Technician)
-                    .Include(t => t.Product)
-                    .Include(t => t.Customer)
-
+                .Include(t => t.Customer)
                     .OrderBy(t => t.Title)
                     .ToList();
             return View(incident);
@@ -55,6 +44,7 @@ namespace Assignment1.Controllers
             ViewBag.Customers = custContext.Customers.OrderBy(c => c.CustomerLastName).ToList();
             ViewBag.Products = proContext.Products.OrderBy(p => p.ProductName).ToList();
             ViewBag.Technicians = tehContext.Technicians.OrderBy(t => t.TechnicianName).ToList();
+
             return View("AddIncident", new Incident());
         }
 

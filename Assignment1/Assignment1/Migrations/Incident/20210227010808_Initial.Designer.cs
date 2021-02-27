@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Assignment1.Migrations.Incident
 {
     [DbContext(typeof(IncidentContext))]
-    [Migration("20210226205457_Initial")]
+    [Migration("20210227010808_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,7 +31,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasKey("CountryId");
 
-                    b.ToTable("Countries");
+                    b.ToTable("Country");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Customer", b =>
@@ -79,7 +79,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasIndex("CountryId");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customer");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Incident", b =>
@@ -115,11 +115,7 @@ namespace Assignment1.Migrations.Incident
 
                     b.HasIndex("CustomerId");
 
-                    b.HasIndex("ProductId");
-
-                    b.HasIndex("TechnicianId");
-
-                    b.ToTable("Incidents");
+                    b.ToTable("Incident");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Product", b =>
@@ -191,23 +187,7 @@ namespace Assignment1.Migrations.Incident
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Assignment1.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Assignment1.Models.Technician", "Technician")
-                        .WithMany()
-                        .HasForeignKey("TechnicianId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Customer");
-
-                    b.Navigation("Product");
-
-                    b.Navigation("Technician");
                 });
 #pragma warning restore 612, 618
         }
