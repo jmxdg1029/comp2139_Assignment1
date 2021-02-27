@@ -1,4 +1,4 @@
-﻿using Assignment1.Models;
+﻿    using Assignment1.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -29,18 +29,7 @@ namespace Assignment1.Controllers
         public IActionResult AddProduct()
         {
             ViewBag.Action = "Add";
-            return View("AddProduct", new Product());
-        }
-        [HttpPost]
-        public IActionResult AddProduct(Product product)
-        {
-            if (ModelState.IsValid)
-            {
-                proContext.Products.Add(product);
-                proContext.SaveChanges();
-                return RedirectToAction("ManageProduct");
-            }
-            return View(product);
+            return View("EditProduct", new Product());
         }
         [HttpGet]
         public IActionResult EditProduct(int id)

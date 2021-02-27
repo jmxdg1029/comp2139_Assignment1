@@ -24,8 +24,8 @@ namespace Assignment1.Migrations.Customer
                 {
                     CustomerId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CustomerFirstName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CustomerLastName = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: true),
+                    CustomerFirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerLastName = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
                     CustomerAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CustomerCity = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CustomerState = table.Column<string>(type: "nvarchar(max)", nullable: false),

@@ -1,4 +1,4 @@
-﻿    using Assignment1.Models;
+﻿using Assignment1.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

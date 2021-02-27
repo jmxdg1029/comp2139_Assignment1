@@ -1,6 +1,7 @@
 ﻿@model Product
 @{
-    string title = "Edit Product";
+    string title = ViewBag.Action + "Product";
+    ViewBag.Title = title;
 }
 <h2>@title</h2>
 
@@ -24,11 +25,11 @@
 
     <div class="form-group">
         <label asp-for="ProductYearlyPrice">Yearly Price</label>
-        <input asp-for="ProductYearlyPrice" input type="number" min="1" step="any">
+        <input asp-for="ProductYearlyPrice" value="@DateTime.Now" type="number" min="1" step="any">
     </div>
 
-    <input type="hidden" asp-for="ProductCode" />
+    <input type="hidden" asp-for="ProductId" />
 
-    <button type="submit" class="btn btn-primary">Edit</button>
+    <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
     <a asp-controller="Product" asp-action="ManageProduct" class="btn btn-primary">Cancel</a>
 </form>
