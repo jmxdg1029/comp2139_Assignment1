@@ -44,6 +44,7 @@ namespace Assignment1.Controllers
             ViewBag.Customers = custContext.Customers.OrderBy(c => c.CustomerLastName).ToList();
             ViewBag.Products = proContext.Products.OrderBy(p => p.ProductName).ToList();
             ViewBag.Technicians = tehContext.Technicians.OrderBy(t => t.TechnicianName).ToList();
+
             return View("AddIncident", new Incident());
         }
 
@@ -53,7 +54,7 @@ namespace Assignment1.Controllers
 
             if (ModelState.IsValid)
             {
-                incident.CustomerId = incident.Customer.CustomerId;
+                incident.Customer.CustomerId = incident.CustomerId;
                 IncidContext.Incidents.Add(incident);
                 IncidContext.SaveChanges();
             }
