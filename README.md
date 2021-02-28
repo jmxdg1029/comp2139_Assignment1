@@ -1,2 +1,2 @@
-# comp2139_Assignment1
-Assignment 1
+# comp2139_SportsPro
+SportPro Project
