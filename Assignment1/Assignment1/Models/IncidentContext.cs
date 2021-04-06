@@ -8,9 +8,9 @@ using Microsoft.Data.SqlClient;
 
 namespace Assignment1.Models
 {
-    public class SportContext : DbContext
+    public class IncidentContext : DbContext
     {
-        public SportContext(DbContextOptions<SportContext> options)
+        public IncidentContext(DbContextOptions<IncidentContext> options)
             : base(options)
         { }
 

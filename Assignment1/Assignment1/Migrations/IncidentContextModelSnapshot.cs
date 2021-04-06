@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Assignment1.Migrations.Incident
+namespace Assignment1.Migrations
 {
     [DbContext(typeof(IncidentContext))]
     partial class IncidentContextModelSnapshot : ModelSnapshot
@@ -30,6 +30,28 @@ namespace Assignment1.Migrations.Incident
                     b.HasKey("CountryId");
 
                     b.ToTable("Countries");
+
+                    b.HasData(
+                        new
+                        {
+                            CountryId = "1",
+                            CountryName = "Canada"
+                        },
+                        new
+                        {
+                            CountryId = "2",
+                            CountryName = "United States"
+                        },
+                        new
+                        {
+                            CountryId = "3",
+                            CountryName = "Philippiness"
+                        },
+                        new
+                        {
+                            CountryId = "4",
+                            CountryName = "India"
+                        });
                 });
 
             modelBuilder.Entity("Assignment1.Models.Customer", b =>
@@ -55,11 +77,12 @@ namespace Assignment1.Migrations.Incident
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerFirstName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerLastName")
-                        .HasMaxLength(8)
-                        .HasColumnType("nvarchar(8)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerPhone")
                         .HasMaxLength(10)
