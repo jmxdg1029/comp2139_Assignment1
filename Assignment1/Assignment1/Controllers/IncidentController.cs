@@ -10,12 +10,12 @@ namespace Assignment1.Controllers
 {
     public class IncidentController : Controller
     {
-        private IncidentContext IncidContext { get; set; }
+        private SportContext IncidContext { get; set; }
         private CustomerContext custContext { get; set; }
         private ProductContext proContext { get; set; }
         private TechnicianContext tehContext { get; set; }
 
-        public IncidentController(IncidentContext itx, ProductContext ctx, TechnicianContext tctx, CustomerContext cuctx)
+        public IncidentController(SportContext itx)
         {
             IncidContext = itx;
             proContext = ctx;
@@ -25,9 +25,9 @@ namespace Assignment1.Controllers
         }
             public IActionResult ManageIncident()
             {
-                var customer = custContext.Customers;
-                var products = proContext.Products;
-                var technician = tehContext.Technicians;
+                var customer = IncidContext.Customers;
+                var products = IncidContext.Products;
+                var technician = IncidContext.Technicians;
 
                 var incident = IncidContext.Incidents
                         .Include(t => t.Customer)
@@ -47,9 +47,9 @@ namespace Assignment1.Controllers
             public IActionResult AddIncident()
             {
                 ViewBag.Action = "Add";
-                ViewBag.Customers = custContext.Customers.OrderBy(c => c.CustomerLastName).ToList();
-                ViewBag.Products = proContext.Products.OrderBy(p => p.ProductName).ToList();
-                ViewBag.Technicians = tehContext.Technicians.OrderBy(t => t.TechnicianName).ToList();
+                ViewBag.Customers = IncidContext.Customers.OrderBy(c => c.CustomerLastName).ToList();
+                ViewBag.Products = IncidContext.Products.OrderBy(p => p.ProductName).ToList();
+                ViewBag.Technicians = IncidContext.Technicians.OrderBy(t => t.TechnicianName).ToList();
                 return View("AddIncident", new Incident());
             }
             [HttpPost]
