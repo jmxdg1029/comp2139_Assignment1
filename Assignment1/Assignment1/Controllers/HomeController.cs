@@ -14,9 +14,9 @@ namespace Assignment1.Controllers
     //Crazy
     public class HomeController : Controller
     {
-        private TechnicianContext techContext { get; set; }
+        private SportContext techContext { get; set; }
 
-        public HomeController(TechnicianContext tctx)
+        public HomeController(SportContext tctx)
         {
             techContext = tctx;
         }
