@@ -14,9 +14,9 @@ namespace Assignment1.Controllers
     //Crazy
     public class HomeController : Controller
     {
-        private SportContext techContext { get; set; }
+        private IncidentContext techContext { get; set; }
 
-        public HomeController(SportContext tctx)
+        public HomeController(IncidentContext tctx)
         {
             techContext = tctx;
         }
@@ -39,12 +39,6 @@ namespace Assignment1.Controllers
         public IActionResult Privacy()
         {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

@@ -10,9 +10,9 @@ namespace Assignment1.Controllers
 {
     public class CustomerController : Controller
     {
-        private SportContext custContext { get; set; }
+        private IncidentContext custContext { get; set; }
 
-        public CustomerController(SportContext cuctx)
+        public CustomerController(IncidentContext cuctx)
         {
             custContext = cuctx;
         }

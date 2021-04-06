@@ -10,17 +10,11 @@ namespace Assignment1.Controllers
 {
     public class IncidentController : Controller
     {
-        private SportContext IncidContext { get; set; }
-        private CustomerContext custContext { get; set; }
-        private ProductContext proContext { get; set; }
-        private TechnicianContext tehContext { get; set; }
+        private IncidentContext IncidContext { get; set; }
 
-        public IncidentController(SportContext itx)
+        public IncidentController(IncidentContext itx)
         {
             IncidContext = itx;
-            proContext = ctx;
-            tehContext = tctx;
-            custContext = cuctx;
 
         }
             public IActionResult ManageIncident()

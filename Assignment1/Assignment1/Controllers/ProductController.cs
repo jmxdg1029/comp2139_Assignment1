@@ -12,9 +12,9 @@ namespace Assignment1.Controllers
     public class ProductController : Controller
     {
 
-        private SportContext proContext { get; set; }
+        private IncidentContext proContext { get; set; }
 
-        public ProductController(SportContext ctx)
+        public ProductController(IncidentContext ctx)
         {
             proContext = ctx;
         }
