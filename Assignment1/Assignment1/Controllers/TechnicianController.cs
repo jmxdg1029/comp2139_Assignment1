@@ -9,9 +9,9 @@ namespace Assignment1.Controllers
 {//awdawdawd
     public class TechnicianController : Controller
     {
-        private TechnicianContext tehContext { get; set; }
+        private SportContext tehContext { get; set; }
 
-        public TechnicianController(TechnicianContext tctx)
+        public TechnicianController(SportContext tctx)
         {
             tehContext = tctx;
         }
