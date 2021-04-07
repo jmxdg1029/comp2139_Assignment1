@@ -17,6 +17,7 @@ namespace Assignment1.Controllers
             IncidContext = itx;
 
         }
+            [Route("/incidents")]
             public IActionResult ManageIncident()
             {
                 var customer = IncidContext.Customers;

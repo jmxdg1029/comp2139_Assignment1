@@ -16,6 +16,8 @@ namespace Assignment1.Controllers
         {
             custContext = cuctx;
         }
+        
+        [Route("/customers")]
         public IActionResult ManageCustomer()
         {
             var customer = custContext.Customers

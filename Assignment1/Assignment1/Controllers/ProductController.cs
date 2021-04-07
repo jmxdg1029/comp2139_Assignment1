@@ -18,6 +18,8 @@ namespace Assignment1.Controllers
         {
             proContext = ctx;
         }
+
+        [Route("/products")]
         public IActionResult ManageProduct()
         {
             var product = proContext.Products
