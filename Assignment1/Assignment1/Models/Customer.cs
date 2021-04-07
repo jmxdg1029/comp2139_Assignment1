@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
-
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Assignment1.Models
 {
@@ -44,5 +44,9 @@ namespace Assignment1.Models
         [StringLength(10, ErrorMessage = "{0} length must be between {2} and {1}.", MinimumLength = 10)]
         public string CustomerPhone { get; set; }
 
+
+        
+
+        
     }
 }

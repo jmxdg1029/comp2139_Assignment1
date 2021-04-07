@@ -7,22 +7,14 @@
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="mb-3 form-group">
         <label class="form-label" asp-for="CustomerId">Customer</label>
-        <select asp-for="CustomerId" class="form-control">
+        <select asp-for="CustomerId" asp-items="ViewBag.Customers" class="form-control">
             <option value="">Select a Customer</option>
-            @foreach (Customer c in ViewBag.Customers)
-            {
-                <option value="@c.CustomerId">@c.CustomerLastName</option>
-            }
         </select>
     </div>
     <div class="mb-3 form-group">
         <label class="form-label" asp-for="ProductId">Product</label>
-        <select asp-for="ProductId" class="form-control">
+        <select asp-for="ProductId" asp-items="ViewBag.Products"class="form-control">
             <option value="">Select a Product</option>
-            @foreach (Product p in ViewBag.Products)
-            {
-                <option value="@p.ProductId">@p.ProductName</option>            
-            }
         </select>
     </div>
     <div class="mb-3 form-group">
@@ -35,12 +27,8 @@
     </div>
     <div class="mb-3 form-group">
         <label class="form-label" asp-for="TechnicianId">Technician</label>
-        <select asp-for="TechnicianId" class="form-control">
+        <select asp-for="TechnicianId" asp-items="ViewBag.Technicians" class="form-control">
             <option value="">Select a Technician</option>
-            @foreach (Technician t in ViewBag.Technicians)
-            {
-                <option value="@t.TechnicianId">@t.TechnicianName</option>
-            }
         </select>
     </div>
     <div class="mb-3 form-group">
