@@ -15,6 +15,8 @@ namespace Assignment1.Controllers
         {
             tehContext = tctx;
         }
+
+        [Route("/technicians")]
         public IActionResult ManageTechnician()
         {
             var technician = tehContext.Technicians

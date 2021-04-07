@@ -27,6 +27,11 @@ namespace Assignment1.Controllers
                 .ToList();
             return View(technicians);
         }
+        [Route("/about")]
+        public IActionResult About()
+        {
+            return View();
+        }
         public IActionResult AddIncident()
         {
             return View();
