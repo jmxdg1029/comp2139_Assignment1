@@ -90,11 +90,19 @@ namespace Assignment1.Controllers
                 }
 
             }
-            public IActionResult DeleteIncident(int id)
-            {
-                var incident = IncidContext.Incidents.Find(id);
-                return View(incident);
-            }
-        
+        [HttpGet]
+        public IActionResult DeleteIncident(int id)
+        {
+            var incident = IncidContext.Incidents.Find(id);
+            return View(incident);
+        }
+        [HttpPost]
+        public IActionResult Delete(Incident incident)
+        {
+            IncidContext.Incidents.Remove(incident);
+            IncidContext.SaveChanges();
+            return RedirectToAction("ManageIncident");
+        }
+
     }
 }
