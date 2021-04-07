@@ -111,87 +111,87 @@ Write(ViewBag.Title);
     <tbody>
 ");
 #nullable restore
-#line 23 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 23 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
          foreach (var customer in Model)
          {
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("            <tr>\r\n                <td>");
+            WriteLiteral("            <tr>\n                <td>");
 #nullable restore
-#line 26 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 26 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                Write(customer.CustomerFirstName);
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</td>\r\n                <td>");
+            WriteLiteral("</td>\n                <td>");
 #nullable restore
-#line 27 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 27 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                Write(customer.CustomerLastName);
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</td>\r\n                <td>");
+            WriteLiteral("</td>\n                <td>");
 #nullable restore
-#line 28 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 28 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                Write(customer.CustomerAddress);
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</td>\r\n                <td>");
+            WriteLiteral("</td>\n                <td>");
 #nullable restore
-#line 29 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 29 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                Write(customer.CustomerCity);
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</td>\r\n                <td>");
+            WriteLiteral("</td>\n                <td>");
 #nullable restore
-#line 30 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 30 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                Write(customer.CustomerState);
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</td>\r\n                <td>");
+            WriteLiteral("</td>\n                <td>");
 #nullable restore
-#line 31 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 31 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                Write(customer.CustomerPostalCode);
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</td>\r\n                <td>");
+            WriteLiteral("</td>\n                <td>");
 #nullable restore
-#line 32 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 32 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                Write(customer.Country.CountryName);
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</td>\r\n                <td>");
+            WriteLiteral("</td>\n                <td>");
 #nullable restore
-#line 33 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 33 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                Write(customer.CustomerEmail);
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</td>\r\n                <td>");
+            WriteLiteral("</td>\n                <td>");
 #nullable restore
-#line 34 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 34 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                Write(customer.CustomerPhone);
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</td>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "844de45be0d66e533133ed0e45e27acbc288af829518", async() => {
+            WriteLiteral("</td>\n                <td>\n                    ");
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eaf5c3edaa798ed58ae2d10c2b3c4c51c53c6ce49983", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -207,7 +207,7 @@ Write(ViewBag.Title);
             }
             BeginWriteTagHelperAttribute();
 #nullable restore
-#line 37 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 37 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                          WriteLiteral(customer.CustomerId);
 
 #line default
@@ -223,8 +223,8 @@ Write(ViewBag.Title);
             }
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
-            WriteLiteral("\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "844de45be0d66e533133ed0e45e27acbc288af8211904", async() => {
+            WriteLiteral("\n                    ");
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eaf5c3edaa798ed58ae2d10c2b3c4c51c53c6ce412401", async() => {
                 WriteLiteral("Delete");
             }
             );
@@ -240,7 +240,7 @@ Write(ViewBag.Title);
             }
             BeginWriteTagHelperAttribute();
 #nullable restore
-#line 39 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 39 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
                          WriteLiteral(customer.CustomerId);
 
 #line default
@@ -256,15 +256,15 @@ Write(ViewBag.Title);
             }
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
-            WriteLiteral("\r\n                </td>\r\n            </tr>\r\n");
+            WriteLiteral("\n                </td>\n            </tr>\n");
 #nullable restore
-#line 42 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
+#line 42 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Customer\ManageCustomer.cshtml"
          }
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("    </tbody>\r\n</table>");
+            WriteLiteral("    </tbody>\n</table>");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
