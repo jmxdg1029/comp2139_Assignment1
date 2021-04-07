@@ -13,14 +13,14 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\_ViewImports.cshtml"
+#line 1 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\_ViewImports.cshtml"
 using Assignment1;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\_ViewImports.cshtml"
+#line 2 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\_ViewImports.cshtml"
 using Assignment1.Models;
 
 #line default
@@ -64,7 +64,7 @@ using Assignment1.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 2 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Incident\DeleteIncident.cshtml"
+#line 2 "C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\Views\Incident\DeleteIncident.cshtml"
    ViewBag.Title = "Delete Incident"; 
 
 #line default
@@ -78,7 +78,7 @@ Write(Model.CustomerId);
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("</h3>\n=======\n<h3>");
+            WriteLiteral("</h3>\r\n=======\r\n<h3>");
 #nullable restore
 #line 5 "C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\Views\Incident\DeleteIncident.cshtml"
 Write(Model.IncidentId);
@@ -130,7 +130,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 }
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
-                WriteLiteral("\n");
+                WriteLiteral("\r\n");
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
@@ -150,7 +150,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
             }
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
-            WriteLiteral("\n");
+            WriteLiteral("\r\n");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
