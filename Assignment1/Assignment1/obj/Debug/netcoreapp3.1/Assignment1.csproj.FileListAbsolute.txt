@@ -1,346 +1,3 @@
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.exe
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.deps.json
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.json
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.dev.json
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.pdb
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.Views.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.Views.pdb
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Humanizer.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csprojAssemblyReference.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfoInputs.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfo.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CoreCompileInputs.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.input.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.output.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorCoreGenerate.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\AddCustomer.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ManageCustomer.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\AddIncident.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\DeleteIncident.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\EditIncident.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncident.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\AddProduct.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\AddTechnician.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cs
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.Views.pdb
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CopyComplete
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.Manifest.cache
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.xml
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
-C:\Users\Gabri\OneDrive\Desktop\WEB DEV ASSIGNMENT 1\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
-<<<<<<< main
-<<<<<<< Updated upstream
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddIncident.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddProduct.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\AddTechnician.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\AddTechnician.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\AddProduct.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
-<<<<<<< HEAD
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\AddCustomer.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ManageCustomer.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\AddIncident.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\DeleteIncident.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\EditIncident.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncident.cshtml.g.cs
-=======
->>>>>>> Incident
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\AddCustomer.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ManageCustomer.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\AddIncident.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\DeleteIncident.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\EditIncident.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncident.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\AddProduct.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
-C:\Users\jmxdg\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\DeleteCustomer.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\EditCustomer.cshtml.g.cs
->>>>>>> Stashed changes
->>>>>>> FUck
->>>>>>> main
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csprojAssemblyReference.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfoInputs.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfo.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CoreCompileInputs.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.exe
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.deps.json
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.json
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.dev.json
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.pdb
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.Views.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.Views.pdb
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Humanizer.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.Manifest.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.xml
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\scopedcss\bundle\Assignment1.styles.css
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.input.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.output.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorCoreGenerate.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cache
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cs
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.Views.pdb
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CopyComplete
-C:\Users\Ruzzel\Desktop\comp2139_Assignment1\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.exe
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.deps.json
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.json
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.runtimeconfig.dev.json
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.pdb
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.Views.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.Views.pdb
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Humanizer.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csprojAssemblyReference.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfoInputs.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfo.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CoreCompileInputs.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.input.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.output.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorCoreGenerate.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\DeleteCustomer.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\EditCustomer.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ManageCustomer.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\AddIncident.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\DeleteIncident.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\EditIncident.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncident.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\AddTechnician.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cs
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.Views.pdb
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CopyComplete
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.Manifest.cache
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.xml
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
-C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csprojAssemblyReference.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfoInputs.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfo.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CoreCompileInputs.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.Manifest.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.xml
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\scopedcss\bundle\Assignment1.styles.css
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.input.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.output.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorCoreGenerate.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\DeleteCustomer.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\EditCustomer.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ManageCustomer.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\AddIncident.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\DeleteIncident.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\EditIncident.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncident.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\AddTechnician.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cs
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Assignment1.exe
@@ -393,7 +50,44 @@ C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfoInputs.cache
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.AssemblyInfo.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cache
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorAssemblyInfo.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.Manifest.cache
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\staticwebassets\Assignment1.StaticWebAssets.xml
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\scopedcss\bundle\Assignment1.styles.css
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.input.cache
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.TagHelpers.output.cache
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorCoreGenerate.cache
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\DeleteCustomer.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\EditCustomer.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Customer\ManageCustomer.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\AddIncident.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\DeleteIncident.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\EditIncident.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncident.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ManageProduct.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\AddTechnician.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\DeleteTechnician.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\EditTechnician.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Technician\ManageTechnician.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cache
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.RazorTargetAssemblyInfo.cs
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.Views.pdb
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csproj.CopyComplete
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
-C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csprojAssemblyReference.cache
