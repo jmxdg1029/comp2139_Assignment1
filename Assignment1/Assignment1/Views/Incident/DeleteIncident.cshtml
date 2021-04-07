@@ -1,11 +1,8 @@
 @model Incident
 @{ ViewBag.Title = "Delete Incident"; }
 <h2>Confirm Deletion</h2>
-<<<<<<< main
 <h3>@Model.CustomerId</h3>
-=======
 <h3>@Model.IncidentId</h3>
->>>>>>> FUck
 <form asp-controller="Incident" asp-action="Delete" method="post">
     <input type="hidden" asp-for="IncidentId" />
 
