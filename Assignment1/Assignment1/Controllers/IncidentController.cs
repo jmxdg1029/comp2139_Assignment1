@@ -21,6 +21,8 @@ namespace Assignment1.Controllers
             [Route("/incidents")]
             public IActionResult ManageIncident()
             {
+
+                
                 var customer = IncidContext.Customers;
                 var products = IncidContext.Products;
                 var technician = IncidContext.Technicians;

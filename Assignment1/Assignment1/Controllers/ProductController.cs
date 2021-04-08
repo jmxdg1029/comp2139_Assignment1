@@ -22,6 +22,7 @@ namespace Assignment1.Controllers
         [Route("/products")]
         public IActionResult ManageProduct()
         {
+            TempData["name"] = "Success!";
             var product = proContext.Products
                 .OrderBy(t => t.ProductName)
                 .ToList();
@@ -48,10 +49,12 @@ namespace Assignment1.Controllers
                 if (product.ProductId == 0)
                 {
                     proContext.Products.Add(product);
+                    TempData["success"] = product.ProductName+" Added Successfully!";
                 }
                 else
                 {
                     proContext.Products.Update(product);
+                    TempData["success"] = product.ProductName + " Updated Successfully!";
                 }
                 proContext.SaveChanges();
                 return RedirectToAction("ManageProduct");
@@ -65,6 +68,7 @@ namespace Assignment1.Controllers
         [HttpGet]
         public IActionResult DeleteProduct(int id)
         {
+            TempData["success"] =" Deleted Successfully!";
             var product = proContext.Products.Find(id);
             return View(product);
         }

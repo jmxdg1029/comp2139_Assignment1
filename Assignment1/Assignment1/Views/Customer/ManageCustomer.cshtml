@@ -4,6 +4,10 @@
 }
 <h1>@ViewBag.Title</h1>
 <a asp-controller="Customer" asp-action="AddCustomer">Add New Customer</a>
+@if(TempData["Success"] != null)
+{
+    <h3 class="alert text-white alert-success" id="successMessage">@TempData["Success"]</h3>
+}
 <table class="table table-bordered table-striped">
     <thead>
         <tr>

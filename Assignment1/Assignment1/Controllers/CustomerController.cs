@@ -18,15 +18,20 @@ namespace Assignment1.Controllers
             custContext = cuctx;
         }
         
+        
+
         [Route("/customers")]
         public IActionResult ManageCustomer()
         {
+            TempData["name"] = "Success!";
             var customer = custContext.Customers
                 .Include(t => t.Country)
                 .OrderBy(t => t.CustomerLastName)
                 .ToList();
             return View(customer);
         }
+
+
         [HttpGet]
         public IActionResult AddCustomer()
         {
@@ -34,6 +39,8 @@ namespace Assignment1.Controllers
             ViewBag.Countries = new SelectList(custContext.Countries,"CountryId","CountryName");
             return View("EditCustomer", new Customer());
         }
+
+
         [HttpGet]
         public IActionResult EditCustomer(int id)
         {
@@ -42,6 +49,8 @@ namespace Assignment1.Controllers
             var customer = custContext.Customers.Find(id);
             return View(customer);
         }
+
+
         [HttpPost]
         public IActionResult EditCustomer(Customer customer)
         {
@@ -50,10 +59,12 @@ namespace Assignment1.Controllers
                 if (customer.CustomerId == 0)
                 {
                     custContext.Customers.Add(customer);
+                    TempData["Success"] = customer.CustomerFirstName + " Added Successfully!";
                 }
                 else
                 {
                     custContext.Customers.Update(customer);
+                    TempData["Success"] = customer.CustomerFirstName+" Updated Successfully!";
                 }
                 custContext.SaveChanges();
                 return RedirectToAction("ManageCustomer");
@@ -62,15 +73,20 @@ namespace Assignment1.Controllers
             {
                 ViewBag.Action = (customer.CustomerId == 0) ? "Add" : "Edit";
                 ViewBag.Countries = new SelectList(custContext.Countries, "CountryId", "CountryName");
+                TempData["Success"] = "Unsuccessfull!";
                 return View(customer);
             }
         }
+
+
         [HttpGet]
         public IActionResult DeleteCustomer(int id)
         {
             var customer = custContext.Customers.Find(id);
             return View(customer);
         }
+
+
         [HttpPost]
         public IActionResult Delete(Customer customer)
         {
