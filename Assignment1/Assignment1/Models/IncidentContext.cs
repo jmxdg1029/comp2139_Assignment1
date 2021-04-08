@@ -14,6 +14,7 @@ namespace Assignment1.Models
             : base(options)
         { }
 
+       
         public DbSet<Incident> Incidents { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Product> Products { get; set; }

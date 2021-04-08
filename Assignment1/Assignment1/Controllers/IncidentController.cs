@@ -1,5 +1,6 @@
 using Assignment1.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace Assignment1.Controllers
         public IncidentController(IncidentContext itx)
         {
             IncidContext = itx;
-
+            
         }
             [Route("/incidents")]
             public IActionResult ManageIncident()
@@ -42,9 +43,9 @@ namespace Assignment1.Controllers
             public IActionResult AddIncident()
             {
                 ViewBag.Action = "Add";
-                ViewBag.Customers = IncidContext.Customers.OrderBy(c => c.CustomerLastName).ToList();
-                ViewBag.Products = IncidContext.Products.OrderBy(p => p.ProductName).ToList();
-                ViewBag.Technicians = IncidContext.Technicians.OrderBy(t => t.TechnicianName).ToList();
+                ViewBag.Customers = new SelectList(IncidContext.Customers, "CustomerId", "CustomerFirstName");
+                ViewBag.Products = new SelectList(IncidContext.Products, "ProductId", "ProductName");
+                ViewBag.Technicians = new SelectList(IncidContext.Technicians, "TechnicianId", "TechnicianName");
                 return View("AddIncident", new Incident());
             }
             [HttpPost]
