@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Assignment1.Controllers
 {
@@ -30,7 +31,7 @@ namespace Assignment1.Controllers
         public IActionResult AddCustomer()
         {
             ViewBag.Action = "Add";
-            ViewBag.Countries = custContext.Countries.OrderBy(c => c.CountryName).ToList();
+            ViewBag.Countries = new SelectList(custContext.Countries,"CountryId","CountryName");
             return View("EditCustomer", new Customer());
         }
         [HttpGet]

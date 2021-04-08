@@ -35,12 +35,8 @@
     </div>
     <div class="mb-3 form-group">
         <label asp-for="CountryId">Country</label>
-        <select asp-for="CountryId" class="form-control">
+        <select asp-for="CountryId" asp-items="ViewBag.Countries" class="form-control">
             <option value="">Select A Country</option>
-            @foreach (Country c in ViewBag.Countries)
-            {
-                <option value="@c.CountryId">@c.CountryName</option>
-            }
         </select>
     </div>
     <div class="mb-3 form-group">
