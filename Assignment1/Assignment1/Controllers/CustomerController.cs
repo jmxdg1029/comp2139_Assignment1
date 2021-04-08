@@ -38,7 +38,7 @@ namespace Assignment1.Controllers
         public IActionResult EditCustomer(int id)
         {
             ViewBag.Action = "Edit";
-            ViewBag.Countries = custContext.Countries.OrderBy(c => c.CountryName).ToList();
+            ViewBag.Countries = new SelectList(custContext.Countries, "CountryId", "CountryName");
             var customer = custContext.Customers.Find(id);
             return View(customer);
         }
@@ -61,7 +61,7 @@ namespace Assignment1.Controllers
             else
             {
                 ViewBag.Action = (customer.CustomerId == 0) ? "Add" : "Edit";
-                ViewBag.Countries = custContext.Countries.OrderBy(c => c.CountryName).ToList();
+                ViewBag.Countries = new SelectList(custContext.Countries, "CountryId", "CountryName");
                 return View(customer);
             }
         }
