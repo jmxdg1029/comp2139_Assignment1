@@ -1,23 +1,11 @@
-<<<<<<< HEAD
 {
   "ExpandedNodes": [
     "",
     "\\Assignment1",
     "\\Assignment1\\Assignment1",
-    "\\Assignment1\\Assignment1\\Controllers",
-    "\\Assignment1\\Assignment1\\Migrations",
-    "\\Assignment1\\Assignment1\\Models",
     "\\Assignment1\\Assignment1\\Views",
-    "\\Assignment1\\Assignment1\\Views\\Home",
-    "\\Assignment1\\Assignment1\\Views\\Product"
+    "\\Assignment1\\Assignment1\\wwwroot"
   ],
   "SelectedNode": "\\Assignment1\\Assignment1.sln",
   "PreviewInSolutionExplorer": false
-=======
-{
-  "ExpandedNodes": [
-    ""
-  ],
-  "PreviewInSolutionExplorer": false
->>>>>>> main
 }

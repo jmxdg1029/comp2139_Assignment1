@@ -19,19 +19,24 @@
     <tbody>
         @foreach (var incident in Model.Incident)
         {
-<tr>
-    <td>@incident.Title</td>
-    <td>@incident.Customer.CustomerLastName</td>
-    <td>@incident.Product.ProductName</td>
-    <td>@incident.DateOpened</td>
-    <td>
-        <a class="btn btn-primary" asp-controller="Incident" asp-action="EditIncident"
-           asp-route-id="@incident.IncidentId">Edit</a>
-        <a class="btn btn-primary" asp-controller="Incident" asp-action="DeleteIncident"
-           asp-route-id="@incident.IncidentId">Delete</a>
-    </td>
-</tr>
-}
+            DateTime tempDate = new DateTime();
+            if (incident.DateClosed == tempDate)
+            {
+                <tr>
+                    <td>@incident.Title</td>
+                    <td>@incident.Customer.CustomerLastName</td>
+                    <td>@incident.Product.ProductName</td>
+                    <td>@incident.DateOpened</td>
+                    <td>
+                        <a class="btn btn-primary" asp-controller="Incident" asp-action="EditIncident"
+                           asp-route-id="@incident.IncidentId">Edit</a>
+                        <a class="btn btn-primary" asp-controller="Incident" asp-action="DeleteIncident"
+                           asp-route-id="@incident.IncidentId">Delete</a>
+                    </td>
+                </tr>
+             }
+         }
+
     </tbody>
 </table>
 <a class="btn btn-primary" asp-controller="Incident" asp-action="AddIncident">Add New Incident</a>

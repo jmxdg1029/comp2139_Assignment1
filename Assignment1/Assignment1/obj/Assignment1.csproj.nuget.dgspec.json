@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\Gabri\\source\\repos\\Assignment1_Comp2139\\comp2139_SportsPro\\Assignment1\\Assignment1\\Assignment1.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\Ruzzel\\source\\repos\\comp2139_SportsPro\\Assignment1\\Assignment1\\Assignment1.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Ruzzel\\source\\repos\\comp2139_SportsPro\\Assignment1\\Assignment1\\Assignment1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Ruzzel\\source\\repos\\comp2139_SportsPro\\Assignment1\\Assignment1\\Assignment1.csproj",
-        "projectName": "Assignment1",
-        "projectPath": "C:\\Users\\Ruzzel\\source\\repos\\comp2139_SportsPro\\Assignment1\\Assignment1\\Assignment1.csproj",
-        "packagesPath": "C:\\Users\\Ruzzel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ruzzel\\source\\repos\\comp2139_SportsPro\\Assignment1\\Assignment1\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Ruzzel\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> main
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.emzi0767.com/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -93,11 +75,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
->>>>>>> main
         }
       }
     }
