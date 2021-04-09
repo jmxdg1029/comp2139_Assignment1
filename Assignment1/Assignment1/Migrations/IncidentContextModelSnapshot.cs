@@ -67,40 +67,34 @@ namespace Assignment1.Migrations
 
                     b.Property<string>("CustomerAddress")
                         .IsRequired()
-                        .HasMaxLength(51)
-                        .HasColumnType("nvarchar(51)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerCity")
                         .IsRequired()
-                        .HasMaxLength(51)
-                        .HasColumnType("nvarchar(51)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerEmail")
-                        .HasMaxLength(51)
-                        .HasColumnType("nvarchar(51)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerFirstName")
                         .IsRequired()
-                        .HasMaxLength(51)
-                        .HasColumnType("nvarchar(51)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerLastName")
                         .IsRequired()
-                        .HasMaxLength(51)
-                        .HasColumnType("nvarchar(51)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerPhone")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("CustomerPostalCode")
                         .IsRequired()
-                        .HasMaxLength(21)
-                        .HasColumnType("nvarchar(21)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerState")
                         .IsRequired()
-                        .HasMaxLength(51)
-                        .HasColumnType("nvarchar(51)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("CustomerId");
 

@@ -4,7 +4,6 @@
     string title = ViewBag.Action + " Customer";
     ViewBag.Title = title;
 }
-<link rel="stylesheet" href="/css/style.css" type="text/css"/>
 <h1>@title</h1>
 
 <form asp-action="EditCustomer" method="post">
@@ -42,11 +41,11 @@
     </div>
     <div class="mb-3 form-group">
         <label asp-for="CustomerEmail" class="form-label">Email Address</label>
-        <input asp-for="CustomerEmail" type="text" class="form-control">
+        <input asp-for="CustomerEmail" type="email" class="form-control" aria-describedby="emailHelp">
     </div>
     <div class="mb-3 form-group">
         <label asp-for="CustomerPhone" class="form-label">Phone Number</label>
-        <input asp-for="CustomerPhone" type="text" class="form-control" >
+        <input asp-for="CustomerPhone" type="text" class="form-control">
     </div>
     <input type="hidden" asp-for="CustomerId" />
 
