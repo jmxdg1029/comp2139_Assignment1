@@ -1,0 +1,11 @@
+﻿@model Incident
+@{ ViewBag.Title = "Technician"; }
+<h1>@ViewBag.Title</h1>
+<div class="mb-3 form-group">
+        <label class="form-label"></label>
+        <select asp-for="TechnicianId" asp-items="ViewBag.Technicians" class="form-control">
+            <option value="">Select a Technician</option>
+        </select>
+    </div>
+<button type="submit" class="btn btn-primary">@ViewBag.Action</button>
+
