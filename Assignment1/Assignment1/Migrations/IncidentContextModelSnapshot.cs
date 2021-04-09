@@ -125,7 +125,7 @@ namespace Assignment1.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int>("TechnicianId")
+                    b.Property<int?>("TechnicianId")
                         .HasColumnType("int");
 
                     b.Property<string>("Title")
@@ -220,9 +220,7 @@ namespace Assignment1.Migrations
 
                     b.HasOne("Assignment1.Models.Technician", "Technician")
                         .WithMany()
-                        .HasForeignKey("TechnicianId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TechnicianId");
 
                     b.Navigation("Customer");
 

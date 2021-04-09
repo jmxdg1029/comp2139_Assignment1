@@ -29,17 +29,51 @@ namespace Assignment1.Controllers
                         .Include(t => t.Customer)
                         .Include(t => t.Product)
                         .Include(t => t.Technician)
-
-                        .Include(t => t.Technician)
-                        .Include(t => t.Product)
-                        .Include(t => t.Customer)
-
                         .OrderBy(t => t.Title)
                         .ToList();
-                return View(incident);
+
+                IncidentViewModel iViewModel = new IncidentViewModel()
+                {
+                    Incident = incident
+                };
+
+                return View(iViewModel);
             }
 
-            [HttpGet]
+            [Route("/incidentsU")]
+            public IActionResult ManageIncidentU()
+                {
+                
+                    var incident = IncidContext.Incidents
+                            .Include(t => t.Customer)
+                            .Include(t => t.Product)
+                            .Include(t => t.Technician)
+                            .OrderBy(t => t.Title)
+                            .ToList();
+                IncidentViewModel iViewModel = new IncidentViewModel()
+                {
+                    Incident = incident
+                };
+                    return View(iViewModel);
+                }
+
+            [Route("/incidentsO")]
+            public IActionResult ManageIncidentO()
+            {
+                var incident = IncidContext.Incidents
+                        .Include(t => t.Customer)
+                        .Include(t => t.Product)
+                        .Include(t => t.Technician)
+                        .OrderBy(t => t.Title)
+                        .ToList();
+                IncidentViewModel iViewModel = new IncidentViewModel()
+                {
+                    Incident = incident
+                };
+            return View(iViewModel);
+            }
+
+        [HttpGet]
             public IActionResult AddIncident()
             {
                 ViewBag.Action = "Add";
@@ -51,14 +85,13 @@ namespace Assignment1.Controllers
             [HttpPost]
             public IActionResult AddIncident(Incident incident)
             {
-
                 if (ModelState.IsValid)
                 {
                     IncidContext.Incidents.Add(incident);
                     IncidContext.SaveChanges();
                     return RedirectToAction("ManageIncident");
                 }
-                return View(incident);
+            return View(incident);
             }
 
             [HttpGet]
@@ -90,7 +123,6 @@ namespace Assignment1.Controllers
                     ViewBag.Action = (incident.IncidentId == 0) ? "Add" : "Edit";
                     return View(incident);
                 }
-
             }
         [HttpGet]
         public IActionResult DeleteIncident(int id)

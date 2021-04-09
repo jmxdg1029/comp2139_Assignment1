@@ -1,7 +1,11 @@
-﻿@model List<Incident>
-@{ ViewBag.Title = "Manage Incident"; }
+﻿@model IncidentViewModel
+@{ ViewBag.Title = "Incident Manager"; }
 <h1>@ViewBag.Title</h1>
-<a asp-controller="Incident" asp-action="AddIncident">Add New Incident</a>
+<div>
+    <a class="btn btn-primary" style="color:white" asp-controller="Incident" asp-action="ManageIncident"> All Incidents </a>
+    <a class="btn btn-dark" asp-controller="Incident" asp-action="ManageIncidentU"> Unassigned Incidents </a>
+    <a class="btn btn-dark" asp-controller="Incident" asp-action="ManageIncidentO"> Open Incidents </a>
+</div>
 <table class="table table-bordered table-striped">
     <thead>
         <tr>
@@ -13,19 +17,21 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var incident in Model)
+        @foreach (var incident in Model.Incident)
         {
 <tr>
-            <td>@incident.Title</td>
-            <td>@incident.Customer.CustomerLastName</td>
-            <td>@incident.Product.ProductName</td>
-            <td>@incident.DateOpened</td>
-            <td>
-        <a asp-controller="Incident" asp-action="EditIncident"
+    <td>@incident.Title</td>
+    <td>@incident.Customer.CustomerLastName</td>
+    <td>@incident.Product.ProductName</td>
+    <td>@incident.DateOpened</td>
+    <td>
+        <a class="btn btn-primary" asp-controller="Incident" asp-action="EditIncident"
            asp-route-id="@incident.IncidentId">Edit</a>
-        <a asp-controller="Incident" asp-action="DeleteIncident"
+        <a class="btn btn-primary" asp-controller="Incident" asp-action="DeleteIncident"
            asp-route-id="@incident.IncidentId">Delete</a>
     </td>
-</tr>}
+</tr>
+}
     </tbody>
 </table>
+<a class="btn btn-primary" asp-controller="Incident" asp-action="AddIncident">Add New Incident</a>
