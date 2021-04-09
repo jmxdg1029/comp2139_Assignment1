@@ -73,6 +73,14 @@ namespace Assignment1.Controllers
             return View(iViewModel);
             }
 
+            [HttpGet]
+            public IActionResult UpdateIncident(int id)
+            {
+                ViewBag.Action = "Select";
+                var incident = IncidContext.Incidents.Find(id);
+                return View(incident);
+            }
+
         [HttpGet]
             public IActionResult AddIncident()
             {
