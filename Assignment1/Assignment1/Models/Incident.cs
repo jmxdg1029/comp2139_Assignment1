@@ -20,9 +20,7 @@ namespace Assignment1.Models
 
         [Required(ErrorMessage = "Please enter the title of the incident.")]
         public string Title { get; set; }
-
-        [Required(ErrorMessage = "Enter a technician name")]
-        public int TechnicianId { get; set; }
+        public int? TechnicianId { get; set; }
         public Technician Technician { get; set; }
 
         public string Description { get; set; }
