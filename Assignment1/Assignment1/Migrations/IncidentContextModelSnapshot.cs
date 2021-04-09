@@ -86,7 +86,7 @@ namespace Assignment1.Migrations
 
                     b.Property<string>("CustomerPhone")
                         .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerPostalCode")
                         .IsRequired()
