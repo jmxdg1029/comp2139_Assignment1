@@ -57,10 +57,12 @@ namespace Assignment1.Controllers
                 if(technician.TechnicianId == 0)
                 {
                     tehContext.Technicians.Add(technician);
+                    TempData["Success"] = technician.TechnicianName + " Added Successfully!";
                 }
                 else
                 {
                     tehContext.Technicians.Update(technician);
+                    TempData["Success"] = technician.TechnicianName + " Updated Successfully!";
                 }
                 tehContext.SaveChanges();
                 return RedirectToAction("ManageTechnician");
@@ -74,6 +76,7 @@ namespace Assignment1.Controllers
         [HttpGet]
         public IActionResult DeleteTechnician(int id)
         {
+            TempData["Success"] = " Deleted Successfully!";
             var technician = tehContext.Technicians.Find(id);
             return View(technician);
         }

@@ -32,6 +32,7 @@ namespace Assignment1.Controllers
         {
             ViewBag.Action = "Add";
             ViewBag.Countries = new SelectList(custContext.Countries,"CountryId","CountryName");
+           
             return View("EditCustomer", new Customer());
         }
         [HttpGet]
@@ -50,10 +51,12 @@ namespace Assignment1.Controllers
                 if (customer.CustomerId == 0)
                 {
                     custContext.Customers.Add(customer);
+                    TempData["Success"] = customer.CustomerFirstName + " Added Successfully!";
                 }
                 else
                 {
                     custContext.Customers.Update(customer);
+                    TempData["Success"] = customer.CustomerFirstName + " Updated Successfully!";
                 }
                 custContext.SaveChanges();
                 return RedirectToAction("ManageCustomer");
@@ -68,6 +71,7 @@ namespace Assignment1.Controllers
         [HttpGet]
         public IActionResult DeleteCustomer(int id)
         {
+            TempData["Success"] =  " Deleted Successfully!";
             var customer = custContext.Customers.Find(id);
             return View(customer);
         }

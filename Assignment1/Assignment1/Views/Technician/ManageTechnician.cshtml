@@ -3,6 +3,11 @@
     ViewBag.Title = "Manage Technician";
 }
 <h1>@ViewBag.Title</h1>
+
+    @if (TempData["Success"] != null)
+    {
+        <h3 class="alert text-white alert-success" id="successMessage">@TempData["success"]</h3>
+    }
 <a asp-controller="Technician" asp-action="AddTechnician">Add New Technician</a>
 <table class="table table-bordered table-striped">
     <thead>

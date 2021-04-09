@@ -32,6 +32,7 @@ namespace Assignment1.Controllers
         {
             ViewBag.Action = "Add";
             return View("EditProduct", new Product());
+            
         }
         [HttpGet]
         public IActionResult EditProduct(int id)
@@ -48,10 +49,13 @@ namespace Assignment1.Controllers
                 if (product.ProductId == 0)
                 {
                     proContext.Products.Add(product);
+                    TempData["Success"] = product.ProductName + " Added Successfully!";
+
                 }
                 else
                 {
                     proContext.Products.Update(product);
+                    TempData["Success"] = product.ProductName + " Updated Successfully!";
                 }
                 proContext.SaveChanges();
                 return RedirectToAction("ManageProduct");
@@ -66,6 +70,7 @@ namespace Assignment1.Controllers
         public IActionResult DeleteProduct(int id)
         {
             var product = proContext.Products.Find(id);
+            TempData["Success"] = " Deleted Successfully!";
             return View(product);
         }
         [HttpPost]

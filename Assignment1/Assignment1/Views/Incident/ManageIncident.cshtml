@@ -1,6 +1,10 @@
 ﻿@model IncidentViewModel
 @{ ViewBag.Title = "Incident Manager"; }
 <h1>@ViewBag.Title</h1>
+@if (TempData["Success"] != null)
+{
+    <h3 class="alert text-white alert-success" id="successMessage">@TempData["Success"]</h3>
+}
 <div>
     <a class="btn btn-primary" style="color:white" asp-controller="Incident" asp-action="ManageIncident"> All Incidents </a>
     <a class="btn btn-dark" asp-controller="Incident" asp-action="ManageIncidentU"> Unassigned Incidents </a>
@@ -19,19 +23,19 @@
     <tbody>
         @foreach (var incident in Model.Incident)
         {
-<tr>
-    <td>@incident.Title</td>
-    <td>@incident.Customer.CustomerLastName</td>
-    <td>@incident.Product.ProductName</td>
-    <td>@incident.DateOpened</td>
-    <td>
-        <a class="btn btn-primary" asp-controller="Incident" asp-action="EditIncident"
-           asp-route-id="@incident.IncidentId">Edit</a>
-        <a class="btn btn-primary" asp-controller="Incident" asp-action="DeleteIncident"
-           asp-route-id="@incident.IncidentId">Delete</a>
-    </td>
-</tr>
-}
+            <tr>
+                <td>@incident.Title</td>
+                <td>@incident.Customer.CustomerLastName</td>
+                <td>@incident.Product.ProductName</td>
+                <td>@incident.DateOpened</td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Incident" asp-action="EditIncident"
+                       asp-route-id="@incident.IncidentId">Edit</a>
+                    <a class="btn btn-primary" asp-controller="Incident" asp-action="DeleteIncident"
+                       asp-route-id="@incident.IncidentId">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
 <a class="btn btn-primary" asp-controller="Incident" asp-action="AddIncident">Add New Incident</a>
