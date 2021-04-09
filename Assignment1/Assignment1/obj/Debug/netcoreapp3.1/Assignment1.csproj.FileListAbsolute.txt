@@ -91,7 +91,6 @@ C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.csprojAssemblyReference.cache
-<<<<<<< HEAD
 C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -259,6 +258,7 @@ C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\
 C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentU.cshtml.g.cs
 C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentO.cshtml.g.cs
+<<<<<<< HEAD
 =======
 C:\Users\Ruzzel\Source\Repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Ruzzel\Source\Repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\appsettings.json
@@ -428,3 +428,4 @@ C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentO.cshtml.g.cs
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentU.cshtml.g.cs
+C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\UpdateIncident.cshtml.g.cs
