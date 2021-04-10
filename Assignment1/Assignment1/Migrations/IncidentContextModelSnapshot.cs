@@ -67,34 +67,40 @@ namespace Assignment1.Migrations
 
                     b.Property<string>("CustomerAddress")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(51)
+                        .HasColumnType("nvarchar(51)");
 
                     b.Property<string>("CustomerCity")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(51)
+                        .HasColumnType("nvarchar(51)");
 
                     b.Property<string>("CustomerEmail")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(51)
+                        .HasColumnType("nvarchar(51)");
 
                     b.Property<string>("CustomerFirstName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(51)
+                        .HasColumnType("nvarchar(51)");
 
                     b.Property<string>("CustomerLastName")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(51)
+                        .HasColumnType("nvarchar(51)");
 
                     b.Property<string>("CustomerPhone")
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CustomerPostalCode")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(21)
+                        .HasColumnType("nvarchar(21)");
 
                     b.Property<string>("CustomerState")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(51)
+                        .HasColumnType("nvarchar(51)");
 
                     b.HasKey("CustomerId");
 
@@ -125,6 +131,9 @@ namespace Assignment1.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("RegistrationId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("TechnicianId")
                         .HasColumnType("int");
 
@@ -137,6 +146,8 @@ namespace Assignment1.Migrations
                     b.HasIndex("CustomerId");
 
                     b.HasIndex("ProductId");
+
+                    b.HasIndex("RegistrationId");
 
                     b.HasIndex("TechnicianId");
 
@@ -167,6 +178,28 @@ namespace Assignment1.Migrations
                     b.HasKey("ProductId");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("Assignment1.Models.Registration", b =>
+                {
+                    b.Property<int>("RegistrationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("RegistrationId");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Registrations");
                 });
 
             modelBuilder.Entity("Assignment1.Models.Technician", b =>
@@ -218,6 +251,10 @@ namespace Assignment1.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Assignment1.Models.Registration", "Registration")
+                        .WithMany()
+                        .HasForeignKey("RegistrationId");
+
                     b.HasOne("Assignment1.Models.Technician", "Technician")
                         .WithMany()
                         .HasForeignKey("TechnicianId");
@@ -226,7 +263,28 @@ namespace Assignment1.Migrations
 
                     b.Navigation("Product");
 
+                    b.Navigation("Registration");
+
                     b.Navigation("Technician");
+                });
+
+            modelBuilder.Entity("Assignment1.Models.Registration", b =>
+                {
+                    b.HasOne("Assignment1.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Assignment1.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("Product");
                 });
 #pragma warning restore 612, 618
         }

@@ -22,6 +22,7 @@ namespace Assignment1.Models
         [Required(ErrorMessage = "Please Enter A Value for Last Name")]
         public string CustomerLastName { get; set; }
 
+
         [Required(ErrorMessage = "Please Enter A Value For Address")]
         [StringLength(51, ErrorMessage = "The Address value cannot exceed 51 characters. ")]
         public string CustomerAddress { get; set; }

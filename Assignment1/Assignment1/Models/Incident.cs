@@ -22,6 +22,8 @@ namespace Assignment1.Models
         public string Title { get; set; }
         public int? TechnicianId { get; set; }
         public Technician Technician { get; set; }
+        public int? RegistrationId { get; set; }
+        public Registration Registration { get; set; }
 
         public string Description { get; set; }
 
