@@ -32,10 +32,13 @@ namespace Assignment1.Controllers
                         .OrderBy(t => t.Title)
                         .ToList();
 
-                IncidentViewModel iViewModel = new IncidentViewModel()
-                {
-                    Incident = incident
-                };
+            IncidentViewModel iViewModel = new IncidentViewModel()
+            {
+                IncidentList = incident,
+                CustomerList = IncidContext.Customers.ToList(),
+                ProductList = IncidContext.Products.ToList(),
+                TechnicianList = IncidContext.Technicians.ToList()
+            };
 
                 return View(iViewModel);
             }
@@ -52,7 +55,10 @@ namespace Assignment1.Controllers
                             .ToList();
                 IncidentViewModel iViewModel = new IncidentViewModel()
                 {
-                    Incident = incident
+                    IncidentList = incident,
+                    CustomerList = IncidContext.Customers.ToList(),
+                    ProductList = IncidContext.Products.ToList(),
+                    TechnicianList = IncidContext.Technicians.ToList()
                 };
                     return View(iViewModel);
                 }
@@ -68,70 +74,88 @@ namespace Assignment1.Controllers
                         .ToList();
                 IncidentViewModel iViewModel = new IncidentViewModel()
                 {
-                    Incident = incident
+                    IncidentList = incident,
+                    CustomerList = IncidContext.Customers.ToList(),
+                    ProductList = IncidContext.Products.ToList(),
+                    TechnicianList= IncidContext.Technicians.ToList()
                 };
             return View(iViewModel);
             }
 
             [HttpGet]
-            public IActionResult UpdateIncident(int id)
+            public IActionResult TechnicianSelect()
             {
                 ViewBag.Action = "Select";
-                var incident = IncidContext.Incidents.Find(id);
+                ViewBag.Technicians = new SelectList(IncidContext.Technicians, "TechnicianId", "TechnicianName");
+                return View("TechnicianSelect");
+            }
+            public IActionResult TechnicianSelectI()
+            {
+            var incident = IncidContext.Incidents
+                    .Include(t => t.Customer)
+                    .Include(t => t.Product)
+                    .Include(t => t.Technician)
+                    .OrderBy(t => t.Title)
+                    .ToList();
                 return View(incident);
             }
 
-        [HttpGet]
+            [HttpGet]
             public IActionResult AddIncident()
             {
                 ViewBag.Action = "Add";
                 ViewBag.Customers = new SelectList(IncidContext.Customers, "CustomerId", "CustomerFirstName");
                 ViewBag.Products = new SelectList(IncidContext.Products, "ProductId", "ProductName");
                 ViewBag.Technicians = new SelectList(IncidContext.Technicians, "TechnicianId", "TechnicianName");
-                return View("AddIncident", new Incident());
-            }
-            [HttpPost]
-            public IActionResult AddIncident(Incident incident)
-            {
-                if (ModelState.IsValid)
-                {
-                    IncidContext.Incidents.Add(incident);
-                    IncidContext.SaveChanges();
-                    return RedirectToAction("ManageIncident");
-                }
-            return View(incident);
+                return View("EditIncident", new IncidentViewModel());
             }
 
             [HttpGet]
             public IActionResult EditIncident(int id)
             {
                 ViewBag.Action = "Edit";
-                var incident = IncidContext.Incidents.Find(id);
-                return View(incident);
+                var incidentVM = new IncidentViewModel();
+                incidentVM.Incident = IncidContext.Incidents.Find(id);
+                ViewBag.Customers = new SelectList(IncidContext.Customers, "CustomerId", "CustomerFirstName");
+                ViewBag.Products = new SelectList(IncidContext.Products, "ProductId", "ProductName");
+                ViewBag.Technicians = new SelectList(IncidContext.Technicians, "TechnicianId", "TechnicianName");
+            return View(incidentVM);
             }
 
             [HttpPost]
-            public IActionResult EditIncident(Incident incident)
+            public IActionResult EditIncident(IncidentViewModel incidentVM)
             {
                 if (ModelState.IsValid)
                 {
-                    if (incident.IncidentId == 0)
+                    if (incidentVM.Incident.IncidentId == 0)
                     {
-                    TempData["Success"] = incident.Title + " Added Successfully!";
-                    IncidContext.Incidents.Add(incident);
+                    TempData["Success"] = incidentVM.Incident.Title + " Added Successfully!";
+                    incidentVM.currPage = "Add";
+                    IncidContext.Incidents.Add(incidentVM.Incident);
                     }
                     else
                     {
-                    TempData["Success"] = incident.Title + " Updated Successfully!";
-                    IncidContext.Incidents.Update(incident);
+                    TempData["Success"] = incidentVM.Incident.Title + " Updated Successfully!";
+                    incidentVM.currPage = "Edit";
+                    IncidContext.Incidents.Update(incidentVM.Incident);
                     }
+                    
+                    if (incidentVM.Incident.DateClosed == null)
+                    {
+                        incidentVM.pageVerify = "Open";
+                    }
+                    else if (incidentVM.Incident.TechnicianId == null)
+                    {
+                        incidentVM.pageVerify = "Unassigned";
+                    }
+                    incidentVM.IncidentId = incidentVM.Incident.IncidentId;
                     IncidContext.SaveChanges();
                     return RedirectToAction("ManageIncident");
                 }
                 else
                 {
-                    ViewBag.Action = (incident.IncidentId == 0) ? "Add" : "Edit";
-                    return View(incident);
+                    ViewBag.Action = (incidentVM.Incident.IncidentId == 0) ? "Add" : "Edit";
+                    return View(incidentVM);
                 }
             }
         [HttpGet]
