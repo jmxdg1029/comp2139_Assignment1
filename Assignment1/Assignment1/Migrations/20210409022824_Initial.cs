@@ -56,15 +56,15 @@ namespace Assignment1.Migrations
                 {
                     CustomerId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CustomerFirstName = table.Column<string>(type: "nvarchar(51)", maxLength: 51, nullable: false),
-                    CustomerLastName = table.Column<string>(type: "nvarchar(51)", maxLength: 51, nullable: false),
-                    CustomerAddress = table.Column<string>(type: "nvarchar(51)", maxLength: 51, nullable: false),
-                    CustomerCity = table.Column<string>(type: "nvarchar(51)", maxLength: 51, nullable: false),
-                    CustomerState = table.Column<string>(type: "nvarchar(51)", maxLength: 51, nullable: false),
-                    CustomerPostalCode = table.Column<string>(type: "nvarchar(21)", maxLength: 21, nullable: false),
+                    CustomerFirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerLastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerAddress = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerCity = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerState = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CustomerPostalCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CountryId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    CustomerEmail = table.Column<string>(type: "nvarchar(51)", maxLength: 51, nullable: true),
-                    CustomerPhone = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    CustomerEmail = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CustomerPhone = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: true)
                 },
                 constraints: table =>
                 {

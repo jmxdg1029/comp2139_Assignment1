@@ -3,6 +3,12 @@
     ViewBag.Title = "Manage Customer";
 }
 <h1>@ViewBag.Title</h1>
+
+@if (TempData["Success"] != null)
+{
+    <h3 class="alert text-white alert-success" id="successMessage">@TempData["Success"]</h3>
+}
+
 <a asp-controller="Customer" asp-action="AddCustomer">Add New Customer</a>
 <table class="table table-bordered table-striped">
     <thead>
@@ -21,7 +27,7 @@
     </thead>
     <tbody>
         @foreach (var customer in Model)
-         {
+        {
             <tr>
                 <td>@customer.CustomerFirstName</td>
                 <td>@customer.CustomerLastName</td>
@@ -39,6 +45,6 @@
                        asp-route-id="@customer.CustomerId">Delete</a>
                 </td>
             </tr>
-         }
+        }
     </tbody>
 </table>

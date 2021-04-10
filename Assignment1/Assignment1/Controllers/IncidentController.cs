@@ -73,6 +73,14 @@ namespace Assignment1.Controllers
             return View(iViewModel);
             }
 
+            [HttpGet]
+            public IActionResult UpdateIncident(int id)
+            {
+                ViewBag.Action = "Select";
+                var incident = IncidContext.Incidents.Find(id);
+                return View(incident);
+            }
+
         [HttpGet]
             public IActionResult AddIncident()
             {
@@ -109,11 +117,13 @@ namespace Assignment1.Controllers
                 {
                     if (incident.IncidentId == 0)
                     {
-                        IncidContext.Incidents.Add(incident);
+                    TempData["Success"] = incident.Title + " Added Successfully!";
+                    IncidContext.Incidents.Add(incident);
                     }
                     else
                     {
-                        IncidContext.Incidents.Update(incident);
+                    TempData["Success"] = incident.Title + " Updated Successfully!";
+                    IncidContext.Incidents.Update(incident);
                     }
                     IncidContext.SaveChanges();
                     return RedirectToAction("ManageIncident");
@@ -127,6 +137,7 @@ namespace Assignment1.Controllers
         [HttpGet]
         public IActionResult DeleteIncident(int id)
         {
+            TempData["Success"] = " Deleted Successfully!";
             var incident = IncidContext.Incidents.Find(id);
             return View(incident);
         }

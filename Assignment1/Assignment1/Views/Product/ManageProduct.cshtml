@@ -3,6 +3,10 @@
     ViewBag.Title = "Manage Product";
 }
 <h1>@ViewBag.Title</h1>
+@if (TempData["Success"] != null)
+{
+    <h3 class="alert text-white alert-success" id="successMessage">@TempData["success"]</h3>
+}
 <a asp-controller="Product" asp-action="AddProduct">Add New Product</a>
 <table class="table table-bordered table-striped">
     <thead>
@@ -16,7 +20,7 @@
     </thead>
     <tbody>
         @foreach (var product in Model)
-         {
+        {
             <tr>
                 <td>@product.ProductCode</td>
                 <td>@product.ProductName</td>
@@ -29,6 +33,6 @@
                        asp-route-id="@product.ProductId">Delete</a>
                 </td>
             </tr>
-         }
+        }
     </tbody>
 </table>

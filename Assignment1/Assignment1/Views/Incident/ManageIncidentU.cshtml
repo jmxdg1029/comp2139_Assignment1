@@ -19,7 +19,7 @@
     <tbody>
         @foreach (var incident in Model.Incident)
         {
-            if (incident.TechnicianId > 0 ) {
+            if (incident.TechnicianId == null ) {
                 <tr>
                     <td>@incident.Title</td>
                     <td>@incident.Customer.CustomerLastName</td>
