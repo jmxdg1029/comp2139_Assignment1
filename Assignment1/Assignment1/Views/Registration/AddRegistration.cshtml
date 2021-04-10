@@ -1,0 +1,24 @@
+﻿@model List<Registration>
+@{
+    ViewBag.Title = "Customer: ";
+}
+<h1>@ViewBag.Title + @ViewBag.customername</h1>
+<a asp-controller="Registration" asp-action="AddRegistration">Registered Product</a>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var registration in Model)
+        {
+            <tr>
+                <td>@registration.Product.ProductName</td>
+                    <a asp-controller="Registration" asp-action="DeleteRegistration"
+                       asp-route-id="@registration.RegistrationId">Delete</a>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,17 @@
+﻿@model Registration
+@{ string title = "Select Customer";
+    ViewBag.Title = title; }
+<h1>@title</h1>
+
+<form asp-action="SelectCustomer" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="mb-3 form-group">
+        <label class="form-label" asp-for="CustomerId">Customer</label>
+        <select asp-for="CustomerId" asp-items="ViewBag.Customers" class="form-control">
+            <option value="CustomerId">Select a Customer</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
+</form>
+<p>Use this page to Select Customer for Registration.</p>

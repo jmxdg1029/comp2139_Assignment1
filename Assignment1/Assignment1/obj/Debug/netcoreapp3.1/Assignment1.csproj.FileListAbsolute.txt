@@ -354,7 +354,6 @@ C:\Users\Ruzzel\Source\Repos\comp2139_SportsPro\Assignment1\Assignment1\obj\Debu
 C:\Users\Ruzzel\Source\Repos\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
 C:\Users\Ruzzel\Source\Repos\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.genruntimeconfig.cache
 >>>>>>> main
-<<<<<<< HEAD
 C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -429,7 +428,6 @@ C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debu
 C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentO.cshtml.g.cs
 C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentU.cshtml.g.cs
-=======
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -505,4 +503,11 @@ C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentO.cshtml.g.cs
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentU.cshtml.g.cs
 C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\UpdateIncident.cshtml.g.cs
->>>>>>> main
+C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\UpdateIncident.cshtml.g.cs
+C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Registration\ManageRegistration.cshtml.g.cs
+C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Registration\AddRegistration.cshtml.g.cs
+C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Ruzzel\source\repos\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
