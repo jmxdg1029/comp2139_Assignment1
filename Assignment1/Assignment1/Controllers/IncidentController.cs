@@ -16,7 +16,6 @@ namespace Assignment1.Controllers
         public IncidentController(IncidentContext itx)
         {
             IncidContext = itx;
-            
         }
             [Route("/incidents")]
             public IActionResult ManageIncident()
