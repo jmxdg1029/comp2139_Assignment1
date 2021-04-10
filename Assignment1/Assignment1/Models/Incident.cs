@@ -28,7 +28,6 @@ namespace Assignment1.Models
         [Required(ErrorMessage = "Please enter in a date.")]
         public DateTime DateOpened { get; set; }
 
-        [Required(ErrorMessage ="Please enter in a date.")]
-        public DateTime DateClosed { get; set; }
+        public DateTime? DateClosed { get; set; }
     }
 }

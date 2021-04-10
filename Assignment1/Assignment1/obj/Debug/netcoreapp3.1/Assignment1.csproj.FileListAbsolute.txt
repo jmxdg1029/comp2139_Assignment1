@@ -429,3 +429,5 @@ C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\bin\Debug\netcoreapp3.
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentO.cshtml.g.cs
 C:\Users\jmxdg\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\ManageIncidentU.cshtml.g.cs
 C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\UpdateIncident.cshtml.g.cs
+C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\TechnicianSelect.cshtml.g.cs
+C:\Users\Gabri\source\repos\Assignment1_Comp2139\comp2139_SportsPro\Assignment1\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\Incident\TechnicianSelectI.cshtml.g.cs

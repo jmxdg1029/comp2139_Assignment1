@@ -17,9 +17,9 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var incident in Model.Incident)
+        @foreach (var incident in Model.IncidentList)
         {
-            if (incident.TechnicianId == null ) {
+            if (Model.pageVerify == null ) {
                 <tr>
                     <td>@incident.Title</td>
                     <td>@incident.Customer.CustomerLastName</td>

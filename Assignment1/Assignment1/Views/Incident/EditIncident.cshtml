@@ -1,49 +1,49 @@
-﻿@model Incident
-@{ string title = "Edit Incident"; }
-<h2>@title</h2>
+﻿@model IncidentViewModel
+@{
+    string title = ViewBag.Action + " Incident";
+    ViewBag.Title = title; 
+}
+<h1>@title</h1>
 
 <form asp-action="EditIncident" method="post">
-    <div asp-validation-summary="All" text-danger></div>
-
-    <p asp-for="CustomerId"></p>
-
-    <div class="form-group">
-        <label asp-for="TechnicianId">Technician: @Model.TechnicianId</label>
-        <input asp-for="TechnicianId" class="form-control" hidden>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="mb-3 form-group">
+        <label class="form-label" asp-for="@Model.Incident.CustomerId">Customer</label>
+        <select asp-for="@Model.Incident.CustomerId" asp-items="ViewBag.Customers" class="form-control">
+            <option value="CustomerId">Select a Customer</option>
+        </select>
     </div>
-
-    <div class="form-group">
-        <label asp-for="CustomerId">Customer: @Model.CustomerId</label>
-        <input asp-for="CustomerId" class="form-control" hidden>
+    <div class="mb-3 form-group">
+        <label class="form-label" asp-for="@Model.Incident.ProductId">Product</label>
+        <select asp-for="@Model.Incident.ProductId" asp-items="ViewBag.Products" class="form-control">
+            <option value="">Select a Product</option>
+        </select>
     </div>
-
-    <div class="form-group">
-        <label asp-for="ProductId">Product: @Model.ProductId</label>
-        <input asp-for="ProductId" class="form-control" hidden>
+    <div class="mb-3 form-group">
+        <label asp-for="@Model.Incident.Title" class="form-label">Title</label>
+        <input asp-for="@Model.Incident.Title" type="text" class="form-control">
     </div>
-
-    <div class="form-group">
-        <label asp-for="Title">Title: @Model.Title</label>
-        <input asp-for="Title" class="form-control" hidden>
+    <div class="mb-3 form-group">
+        <label asp-for="@Model.Incident.Description" class="form-label">Description</label>
+        <textarea asp-for="@Model.Incident.Description" rows="2" clos="50" class="form-control">Enter what happened here...</textarea>
     </div>
-
-    <div class="form-group">
-        <label asp-for="DateOpened">Date Opened: @Model.DateOpened</label>
-        <input asp-for="DateOpened" class="form-control" hidden>
+    <div class="mb-3 form-group">
+        <label class="form-label" asp-for="@Model.Incident.TechnicianId">Technician</label>
+        <select asp-for="@Model.Incident.TechnicianId" asp-items="ViewBag.Technicians" class="form-control">
+            <option value="">Select a Technician</option>
+        </select>
     </div>
-
-    <div class="form-group">
-        <label asp-for="Description">Description</label>
-        <textarea asp-for="Description" class="form-control"></textarea>
+    <div class="mb-3 form-group">
+        <label class="form-label" asp-for="@Model.Incident.DateOpened">Date Opened</label>
+        <input asp-for="@Model.Incident.DateOpened" type="date" class="form-control">
     </div>
-
-    <div class="form-group">
-        <label asp-for="DateClosed">Date Closed</label>
-        <input asp-for="DateClosed" class="form-control">
+    <div class="mb-3 form-group">
+        <label class="form-label" asp-for="@Model.Incident.DateClosed">Date Closed</label>
+        <input asp-for="@Model.Incident.DateClosed" type="date" class="form-control">
     </div>
-
     <input type="hidden" asp-for="IncidentId" />
 
-    <button type="submit" class="btn btn-primary">Edit</button>
-    <a asp-controller="Incident" asp-action="ManageIncident" class="btn btn-primary">Cancel</a>
+    <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
+    <button asp-controller="Incident" asp-action="ManageIncident" type="submit" class="btn btn-primary">Cancel</button>
 </form>
+<p>Use this page to Add Incidents.</p>

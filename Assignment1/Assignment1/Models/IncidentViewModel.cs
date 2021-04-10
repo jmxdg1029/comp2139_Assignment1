@@ -7,10 +7,16 @@ namespace Assignment1.Models
 {
     public class IncidentViewModel
     {
-        public List<Incident> Incident { get; set; }
+        public Incident Incident { get; set; }
+        public List<Incident> IncidentList { get; set; }
         public string pageVerify { get; set; }
-        public List<Customer> Customer { get; set; }
-        public List<Product> Product { get; set; }
-        public List<Technician> Technician { get; set; }
+        public Customer Customer { get; set; }
+        public List<Customer> CustomerList { get; set; }
+        public Product Product { get; set; }
+        public List<Product> ProductList { get; set; }
+        public Technician Technician { get; set; }
+        public List<Technician> TechnicianList { get; set; }
+        public int IncidentId { get; set; }
+        public string currPage { get; set; }
     }
 }
